@@ -1,0 +1,24 @@
+import FaceStar from "@/assets/Illustration/face-star.svg";
+import { Button } from "@/components";
+
+export const ProposalBanner = ({ ...props }: React.ComponentProps<"div">) => {
+  return (
+    <div
+      {...props}
+      className="items-center grid grid-cols-1 md:grid-cols-2 bg-main-gray my-16 px-10 py-10 md:py-0 rounded-3xl max-h-80"
+    >
+      <div>
+        <h4 className="font-medium text-xl"> Let&apos;s make things happen</h4>
+        <p>
+          Contact us today to learn more about how our digital marketing
+          services can help your business grow and succeed online.
+        </p>
+        <Button className="my-4">Get your free proposal</Button>
+      </div>
+
+      <div className="md:flex justify-center items-center hidden">
+        <FaceStar className="relative scale-125 size-60" />
+      </div>
+    </div>
+  );
+};
