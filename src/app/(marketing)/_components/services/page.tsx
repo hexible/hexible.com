@@ -10,7 +10,7 @@ export const Service = ({ ...props }: React.ComponentProps<"div">) => {
     <div {...props}>
       <SectionsHeader
         heading="Services"
-        description1="At our digital marketing agency, we offer a range of services to"
+        description1="At Hexible, we offer a range of services to"
         description2="help businesses navigate the digital landscape and achieve success:"
       />
 

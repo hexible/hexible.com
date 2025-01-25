@@ -27,7 +27,7 @@ export const ContactUs = ({ ...props }: React.ComponentProps<"div">) => {
           </RadioGroup>
 
           <ContactForm />
-          <HalfRing className="lg:block lg:top-[5%] right-0 absolute hidden lg:w-[50%] translate-x-60" />
+          <HalfRing className="lg:block lg:top-[5%] right-0 absolute hidden lg:w-[50%] lg:h-[85%] translate-x-60" />
         </div>
       </div>
     </div>

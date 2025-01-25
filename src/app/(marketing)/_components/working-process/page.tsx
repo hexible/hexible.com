@@ -11,13 +11,13 @@ export const WorkingProcess = ({ ...props }: React.ComponentProps<"div">) => {
   return (
     <div {...props} className="my-10">
       <SectionsHeader
-        heading="Our Working Process "
+        heading="Our Working Process"
         description1="Step-by-Step Guide to Achieving"
         description2="Your Business Goals"
       />
 
       <div className="my-6">
-        <Accordion type="multiple">
+        <Accordion type="single" collapsible>
           {WorkingProcessData.map((data, index) => (
             <AccordionItem
               value={data.header}

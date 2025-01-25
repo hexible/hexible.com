@@ -6,7 +6,7 @@ import { ClientCard } from "./client-card";
 
 export const ClientList = ({ ...props }: React.ComponentProps<"div">) => {
   return (
-    <div {...props} className="my-8">
+    <div {...props} className="my-10">
       <div className="relative flex flex-col justify-center items-center w-full h-full overflow-hidden">
         <Marquee pauseOnHover className="[--duration:50s]">
           {clientListData.map((company) => (

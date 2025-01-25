@@ -4,7 +4,7 @@ import { Button } from "@/components/ui";
 export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
   return (
     <main
-      className="justify-between items-center grid grid-cols-1 md:grid-cols-2 my-10 md:my-16 h-full"
+      className="justify-between items-center grid grid-cols-1 md:grid-cols-2 my-10 md:my-12 h-full"
       {...rest}
     >
       <div>
