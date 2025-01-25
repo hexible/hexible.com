@@ -8,7 +8,7 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
       {...rest}
     >
       <div>
-        <h1 className="font-extrabold text-3xl lg:text-4xl xl:text-6xl leading-tight">
+        <h1 className="font-extrabold text-3xl leading-tight">
           Your Vision, <br /> Perfectly Engineered
         </h1>
         <h2 className="my-4">

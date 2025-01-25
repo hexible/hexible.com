@@ -8,7 +8,7 @@ export const ClientList = ({ ...props }: React.ComponentProps<"div">) => {
   return (
     <div {...props} className="my-8">
       <div className="relative flex flex-col justify-center items-center w-full h-full overflow-hidden">
-        <Marquee reverse pauseOnHover className="[--duration:50s]">
+        <Marquee pauseOnHover className="[--duration:50s]">
           {clientListData.map((company) => (
             <ClientCard key={company.name} data={company} />
           ))}
