@@ -17,7 +17,7 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
           Book a free consultancy call to know how we helped hundreds like you
           scale from zero to millions with better web solutions.
         </h2>
-        <Button>Book a consultations</Button>
+        <Button>Book a consultation</Button>
       </div>
 
       <div className="md:block flex justify-center items-center hidden">
