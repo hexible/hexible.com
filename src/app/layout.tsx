@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased ${spaceGrotesk.className} md:mx-10`}>
+      <body className={`antialiased ${spaceGrotesk.className}`}>
         {children}
       </body>
     </html>
