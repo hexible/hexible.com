@@ -1,5 +1,13 @@
 import PageHeader from "@/components/common/page-header";
 import { PrivacyPolicyData } from "./privacy-policy.data";
+import { Metadata } from "next";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: PrivacyPolicyData.title,
+  description: PrivacyPolicyData.description,
+};
 
 export default function PrivacyPolicy() {
   return (

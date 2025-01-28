@@ -1,32 +1,42 @@
 export const WorkingProcessData = [
   {
-    header: "Consultation",
+    header: "Initial Consultation",
     details:
-      "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
+      "During the initial consultation, we will discuss your project requirements, business goals, target users, and existing technology stack. This helps us understand your vision and tailor our services to meet your specific needs.",
   },
   {
-    header: "Research and Strategy Development",
+    header: "Requirement Analysis and Planning",
     details:
-      "Our team will conduct thorough research to identify opportunities and challenges, and develop a customized strategy to achieve your business goals. This includes market analysis, competitor research, and identifying key performance indicators (KPIs).",
+      "Our team will work with you to gather detailed requirements, define the scope of the project, and prioritize features. This phase includes creating a roadmap, resource allocation, and identifying key milestones to ensure a clear development plan.",
   },
   {
-    header: "Implementation",
+    header: "UI/UX Design",
     details:
-      "We will work closely with your team to implement the developed strategy, which may include creating and executing marketing campaigns, developing content, and setting up analytics tools to track progress.",
+      "We will create user-centric designs that align with your brand identity and provide an intuitive experience for your users. This includes wireframes, prototypes, and final design mockups to visualize the product before development begins.",
   },
   {
-    header: "Monitoring and Optimization",
+    header: "Development and Coding",
     details:
-      "Our team will continuously monitor the performance of the implemented strategy, analyzing data and metrics to identify areas for improvement. We will make data-driven decisions to optimize and refine the strategy, ensuring maximum ROI.",
+      "Our developers will bring the designs to life by writing clean, scalable, and maintainable code. We follow industry best practices and use modern technologies to build robust and efficient software solutions.",
   },
   {
-    header: "Reporting and Communication",
+    header: "Quality Assurance and Testing",
     details:
-      "We will provide regular reporting and updates on the progress of the project, including key metrics and insights. Our team will maintain open communication with your team, ensuring that everyone is aligned and informed throughout the process.",
+      "To ensure a flawless product, our QA team will conduct rigorous testing, including functionality, performance, security, and compatibility checks. We will resolve any issues to deliver a reliable and high-quality solution.",
   },
   {
-    header: "Continual Improvement",
+    header: "Deployment and Launch",
     details:
-      "We believe in continuous learning and improvement. Our team will regularly review and assess the effectiveness of our strategies, identifying opportunities for growth and improvement, and implementing changes to ensure long-term success.",
+      "Once the product is thoroughly tested and approved, we will deploy it to the production environment. Our team ensures a smooth launch with minimal downtime and provides support for post-launch adjustments if needed.",
+  },
+  {
+    header: "Monitoring and Maintenance",
+    details:
+      "We will continuously monitor the software's performance, addressing any issues and implementing updates as required. This ensures your product remains secure, efficient, and up-to-date with the latest technologies.",
+  },
+  {
+    header: "Ongoing Support and Scalability",
+    details:
+      "Our team provides ongoing support to address your evolving needs. Whether it's adding new features, scaling the system, or integrating with other tools, we are here to help you grow and adapt to changing business demands.",
   },
 ];

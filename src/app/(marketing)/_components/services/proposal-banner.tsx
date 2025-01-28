@@ -5,13 +5,15 @@ export const ProposalBanner = ({ ...props }: React.ComponentProps<"div">) => {
   return (
     <div
       {...props}
-      className="items-center grid grid-cols-1 md:grid-cols-2 bg-main-gray my-16 px-10 py-10 md:py-0 rounded-3xl max-h-80"
+      className="items-center grid grid-cols-1 md:grid-cols-2 bg-main-gray my-16 px-10 py-10 rounded-3xl max-h-80"
     >
       <div>
         <h4 className="font-medium text-xl"> Let&apos;s make things happen</h4>
         <p>
-          Contact us today to learn more about how our digital marketing
-          services can help your business grow and succeed online.
+          Contact us today to learn more about how our software development
+          services can help bring your ideas to life, streamline your
+          operations, and drive your business growth through innovative
+          technology solutions.
         </p>
         <Button className="my-4">Get your free proposal</Button>
       </div>

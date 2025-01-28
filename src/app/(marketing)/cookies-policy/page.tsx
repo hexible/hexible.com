@@ -1,5 +1,13 @@
 import PageHeader from "@/components/common/page-header";
 import { CookiesPolicyData } from "./cookies-policy.data";
+import { Metadata } from "next";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: CookiesPolicyData.title,
+  description: CookiesPolicyData.description,
+};
 
 export default function CookiePolicy() {
   return (

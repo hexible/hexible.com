@@ -1,5 +1,13 @@
 import PageHeader from "@/components/common/page-header";
 import { ServiceTermsData } from "./service-terms.data";
+import { Metadata } from "next";
+
+export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: ServiceTermsData.title,
+  description: ServiceTermsData.description,
+};
 
 export default function ServiceTerms() {
   return (
