@@ -15,15 +15,15 @@ type ServiceType = {
 
 export const serviceList: ServiceType[] = [
   {
-    heading1: "Web",
+    heading1: "Web/Mobile",
     heading2: "Development",
     Element: Img1,
     bgColor: "gray",
     extantLink: "#",
   },
   {
-    heading1: "Mobile",
-    heading2: "Development",
+    heading1: "UI/UX",
+    heading2: "Design",
     Element: MobileDevelopment,
     bgColor: "green",
     extantLink: "#",
@@ -36,45 +36,24 @@ export const serviceList: ServiceType[] = [
     extantLink: "#",
   },
   {
-    heading1: "UI/UX",
-    heading2: "Design",
+    heading1: "Cloud",
+    heading2: "DevOps",
     Element: SendingMessage,
-    bgColor: "gray",
+    bgColor: "green",
     extantLink: "#",
   },
   {
     heading1: "No-Code/Low-Code",
     heading2: "Development",
     Element: Img5,
-    bgColor: "green",
+    bgColor: "black",
     extantLink: "#",
   },
   {
     heading1: "Website",
     heading2: "Maintenance",
     Element: VolumetricAnalytics,
-    bgColor: "black",
-    extantLink: "#",
-  },
-  {
-    heading1: "Search Engine",
-    heading2: "Optimization",
-    Element: SendingMessage,
     bgColor: "gray",
-    extantLink: "#",
-  },
-  {
-    heading1: "24x7",
-    heading2: "Support",
-    Element: Img5,
-    bgColor: "green",
-    extantLink: "#",
-  },
-  {
-    heading1: "Business",
-    heading2: "Marketing",
-    Element: VolumetricAnalytics,
-    bgColor: "black",
     extantLink: "#",
   },
 ];
