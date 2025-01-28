@@ -1,15 +1,15 @@
 import PageHeader from "@/components/common/page-header";
-import { PrivacyPolicyData } from "./privacy-policy.data";
+import { ServiceTermsData } from "./service-terms.data";
 
-export default function PrivacyPolicy() {
+export default function ServiceTerms() {
   return (
     <div className="*:container">
       <PageHeader
-        title={PrivacyPolicyData.title}
-        description={PrivacyPolicyData.description}
+        title={ServiceTermsData.title}
+        description={ServiceTermsData.description}
       />
       <div>
-        {PrivacyPolicyData.sections.map((section, index) => (
+        {ServiceTermsData.sections.map((section, index) => (
           <div key={index} className="my-8 lg:my-12">
             <h3 className="font-bold text-xl">
               {index + 1}. {section.title}

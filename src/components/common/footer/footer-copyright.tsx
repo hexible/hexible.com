@@ -9,12 +9,28 @@ export const FooterCopyright = ({ ...props }: React.ComponentProps<"div">) => {
         <p className="text-center text-sm md:text-base">
           © {fulllYear} Hexible. All Rights Reserved.
         </p>
-        <Link
-          href="/privacy-policy"
-          className="hover:text-main-green underline"
-        >
-          Privacy Policy
-        </Link>
+        <div className="">
+          <Link
+            href="/cookie-policy"
+            className="hover:text-main-green underline"
+          >
+            Cookie Policy
+          </Link>
+          <span className="mx-2">|</span>
+          <Link
+            href="/privacy-policy"
+            className="hover:text-main-green underline"
+          >
+            Privacy Policy
+          </Link>
+          <span className="mx-2">|</span>
+          <Link
+            href="/terms-of-service"
+            className="hover:text-main-green underline"
+          >
+            Terms of Service
+          </Link>
+        </div>
       </div>
     </div>
   );
