@@ -7,11 +7,12 @@ export const FooterContact = ({ ...props }: React.ComponentProps<"div">) => {
         <h6 className="inline bg-main-green px-2 rounded-lg font-bold text-main-black text-xl">
           Contact Us
         </h6>
-        <p>Email: info@hexible.com</p>
-        <p>Phone: 555-567-8901</p>
+        <p>Email: contact@hexible.com</p>
+        <p>Phone: +91 8800100101, +91 9992244008</p>
         <p>
-          Address: 1234 Main St <br className="md:block hidden" />
-          Moonstone City, Stardust State 12345
+          Address: D160 Old 294 Siddharth Nagar
+          <br className="md:block hidden" />
+          Jaipur City, Rajasthan India 302017
         </p>
       </div>
       <div className="items-center gap-x-2 gap-y-4 grid grid-cols-1 md:grid-cols-2 bg-[#292A32] p-8 rounded-xl">

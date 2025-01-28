@@ -1,5 +1,8 @@
 import HeroImg from "@/assets/Illustration/hero.svg";
-import { Button } from "@/components/ui";
+import { buttonVariants } from "@/components/ui";
+import { appData } from "@/data/app.data";
+import { cn } from "@/utils";
+import Link from "next/link";
 
 export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
   return (
@@ -17,7 +20,14 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
           Book a free consultancy call to know how we helped hundreds like you
           scale from zero to millions with better web solutions.
         </h2>
-        <Button>Book a consultation</Button>
+        <Link
+          href={appData.consultation.link}
+          className={cn(buttonVariants())}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {appData.consultation.title}
+        </Link>
       </div>
 
       <div className="md:block flex justify-center items-center hidden">
