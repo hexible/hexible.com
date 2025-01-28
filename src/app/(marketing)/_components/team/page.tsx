@@ -9,7 +9,7 @@ export const Team = ({ ...props }: React.ComponentProps<"div">) => {
       <SectionsHeader
         heading="Team"
         description1="Meet the skilled and experienced team behind our "
-        description2="successful digital marketing strategies"
+        description2="successful software development projects"
       />
 
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

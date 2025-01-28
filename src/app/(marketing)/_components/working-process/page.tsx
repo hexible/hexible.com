@@ -12,8 +12,8 @@ export const WorkingProcess = ({ ...props }: React.ComponentProps<"div">) => {
     <div {...props} className="my-10">
       <SectionsHeader
         heading="Our Working Process"
-        description1="Step-by-Step Guide to Achieving"
-        description2="Your Business Goals"
+        description1="Step-by-Step Guide to Building"
+        description2="Your Software Solutions"
       />
 
       <div className="my-6">

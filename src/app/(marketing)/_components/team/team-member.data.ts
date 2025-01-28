@@ -7,40 +7,40 @@ import User6 from "@/assets/users/user6.png";
 
 export const teamMemberData = [
   {
-    name: "John Smith",
+    name: "Deepak J.",
     image: User1,
-    position: "CEO and Founder",
+    position: "CEO and Co-Founder",
     review:
       "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
     linkedinUrl: "#",
   },
   {
-    name: "Jane Doe",
+    name: "Gaurav J.",
     image: User2,
-    position: "Director of Operations",
+    position: "CTO and Co-Founder",
     review:
       "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
     linkedinUrl: "#",
   },
   {
-    name: "Michael Brown",
+    name: "Dinesh Jangra",
     image: User3,
-    position: "Senior Digital Marketing Specialist",
+    position: "Tech Lead",
     review:
       "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
     linkedinUrl: "#",
   },
   {
-    name: "Alex Johnson",
+    name: "Vivek Kumar",
     image: User4,
-    position: "Content Writer",
+    position: "Principal Architect",
     review:
       "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
     linkedinUrl: "#",
   },
 
   {
-    name: "Emily Lee",
+    name: "Vineet Kumar",
     image: User5,
     position: "SEO Specialist",
     review:
@@ -49,7 +49,7 @@ export const teamMemberData = [
   },
 
   {
-    name: "David Kim",
+    name: "Himanshu Sharma",
     image: User6,
     position: "Digital Advertising Specialist",
     review: `2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries`,

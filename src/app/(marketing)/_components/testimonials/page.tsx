@@ -18,7 +18,7 @@ export const Testimonials = ({ ...props }: React.ComponentProps<"div">) => {
       <SectionsHeader
         heading="Testimonials"
         description1="Hear from Our Satisfied Clients: Read Our Testimonials "
-        description2="to Learn More about Our Digital Marketing Services"
+        description2="to Learn More about Our Software Development Services"
       />
 
       <div className="bg-main-black my-10 px-2 py-10 rounded-3xl">

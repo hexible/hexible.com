@@ -7,7 +7,7 @@ export const CaseStudies = ({ ...props }: React.ComponentProps<"div">) => {
     <div {...props}>
       <SectionsHeader
         heading="Case Studies"
-        description1="Explore Real-Life Examples of Our Proven Digital Marketing "
+        description1="Explore Real-Life Examples of Our Proven Software Development"
         description2="Success through Our Case Studies"
       />
       <CaseStudiesForLargeDevice />

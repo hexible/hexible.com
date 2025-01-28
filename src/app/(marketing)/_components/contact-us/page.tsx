@@ -10,7 +10,7 @@ export const ContactUs = ({ ...props }: React.ComponentProps<"div">) => {
       <SectionsHeader
         heading="Contact Us"
         description1="Connect with Us: Let's Discuss Your"
-        description2="Digital Marketing Needs"
+        description2="Software Development Needs"
       />
 
       <div className="relative bg-main-gray my-4 rounded-3xl min-h-60 overflow-hidden">
