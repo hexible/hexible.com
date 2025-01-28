@@ -10,9 +10,9 @@ export const FooterContact = ({ ...props }: React.ComponentProps<"div">) => {
         <p>Email: contact@hexible.com</p>
         <p>Phone: +91 8800100101, +91 9992244008</p>
         <p>
-          Address: D160 Old 294 Siddharth Nagar
+          Address: D160, Siddharth Nagar
           <br className="md:block hidden" />
-          Jaipur City, Rajasthan India 302017
+          Jaipur City, Rajasthan, India 302017
         </p>
       </div>
       <div className="items-center gap-x-2 gap-y-4 grid grid-cols-1 md:grid-cols-2 bg-[#292A32] p-8 rounded-xl">
