@@ -11,8 +11,7 @@ export const FooterContactAndLinks = ({
         <p>Email: contact@hexible.com</p>
         <p>Phone: +91 8800100101, +91 9992244008</p>
         <p>
-          Address: D160, Siddharth Nagar
-          <br className="md:block hidden" />
+          Address: D160, Siddharth Nagar, <br className="md:block hidden" />
           Jaipur City, Rajasthan, India 302017
         </p>
       </div>

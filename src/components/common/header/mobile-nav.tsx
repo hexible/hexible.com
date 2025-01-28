@@ -26,7 +26,11 @@ export const MobileNav = ({
 
           <div className="flex flex-col gap-y-1 mt-3">
             {HeaderNavigationData.map(({ label, link }) => (
-              <Link href={link} key={label + link} className="font-bold">
+              <Link
+                href={link}
+                key={label + link}
+                className="font-bold text-xl"
+              >
                 {label}
               </Link>
             ))}
