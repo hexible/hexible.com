@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui";
-import { navigationData } from "@/data";
+import { HeaderNavigationData } from "@/data";
 import { cn } from "@/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -20,7 +20,7 @@ export const LargeDeviceNav = ({
       {...props}
     >
       <div className="lg:flex-1 lg:space-x-4 xl:space-x-6">
-        {navigationData?.map(({ label, link }) => {
+        {HeaderNavigationData?.map(({ label, link }) => {
           const isActive = pathname === link;
 
           return (

@@ -1,21 +1,27 @@
-import FacebookIcon from "@/assets/icons/fb-bgwhite.svg";
-import LinkedinIcon from "@/assets/icons/linkedin-bgwhite.svg";
-import TwitterIcon from "@/assets/icons/x-bgwhite.svg";
-
-export const contactLinksData = [
+export const ContactLinksData = [
   {
-    name: "Facebook",
-    Element: FacebookIcon,
-    url: "https://www.facebook.com/hexible",
+    name: "GitHub",
+    url: "https://www.github.com/hexible",
   },
   {
     name: "LinkedIn",
-    Element: LinkedinIcon,
     url: "https://www.linkedin.com/company/hexible",
   },
   {
-    name: "Twitter",
-    Element: TwitterIcon,
-    url: "https://twitter.com/hexible",
+    name: "X",
+    url: "https://www.x.com/hexible",
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/hexible",
+  },
+
+  {
+    name: "YouTube",
+    url: "https://www.youtube.com/hexible",
+  },
+  {
+    name: "Facebook",
+    url: "https://www.facebook.com/hexible",
   },
 ];
