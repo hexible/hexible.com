@@ -1,4 +1,4 @@
-export const CookiePolicyData = {
+export const CookiesPolicyData = {
   title: "Cookies Policy",
   description:
     "At Hexible, we use cookies to provide you with a better user experience when you use our website and software services. This Cookies Policy explains how we use cookies and other tracking technologies on our website.",

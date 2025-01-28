@@ -1,15 +1,15 @@
 import PageHeader from "@/components/common/page-header";
-import { CookiePolicyData } from "./cookie-policy.data";
+import { CookiesPolicyData } from "./cookies-policy.data";
 
 export default function CookiePolicy() {
   return (
     <div className="*:container">
       <PageHeader
-        title={CookiePolicyData.title}
-        description={CookiePolicyData.description}
+        title={CookiesPolicyData.title}
+        description={CookiesPolicyData.description}
       />
       <div>
-        {CookiePolicyData.sections.map((section, index) => (
+        {CookiesPolicyData.sections.map((section, index) => (
           <div key={index} className="my-8 lg:my-12">
             <h3 className="font-bold text-xl">
               {index + 1}. {section.title}

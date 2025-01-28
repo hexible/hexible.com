@@ -15,10 +15,10 @@ export const MobileNav = ({
   return (
     <div id="mobile-device-nav" className={cn(className)} {...props}>
       <Sheet>
-        <SheetTrigger>
-          <Menu className="size-6" />
+        <SheetTrigger className="flex items-center">
+          <Menu className="size-7" />
         </SheetTrigger>
-        <SheetContent>
+        <SheetContent className="py-12">
           <DialogTitle className="sr-only">Hexible</DialogTitle>
           <DialogDescription className="sr-only">
             Your Vision, Perfectly Engineered
@@ -26,7 +26,7 @@ export const MobileNav = ({
 
           <div className="flex flex-col gap-y-1 mt-3">
             {HeaderNavigationData.map(({ label, link }) => (
-              <Link href={link} key={label + link} className="text-lg">
+              <Link href={link} key={label + link} className="font-bold">
                 {label}
               </Link>
             ))}
