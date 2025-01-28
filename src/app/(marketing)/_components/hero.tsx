@@ -1,6 +1,6 @@
 import HeroImg from "@/assets/Illustration/hero.svg";
 import { buttonVariants } from "@/components/ui";
-import { appData } from "@/data/app.data";
+import { AppData } from "@/data/app.data";
 import { cn } from "@/utils";
 import Link from "next/link";
 
@@ -11,7 +11,7 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
       {...rest}
     >
       <div>
-        <h1 className="font-extrabold text-3xl leading-tight">
+        <h1 className="font-extrabold text-3xl md:text-4xl leading-tight">
           Your Vision, <br /> Perfectly Engineered
         </h1>
         <h2 className="my-4">
@@ -21,12 +21,12 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
           scale from zero to millions with better web solutions.
         </h2>
         <Link
-          href={appData.consultation.link}
+          href={AppData.consultation.link}
           className={cn(buttonVariants())}
           target="_blank"
           rel="noopener noreferrer"
         >
-          {appData.consultation.title}
+          {AppData.consultation.title}
         </Link>
       </div>
 
