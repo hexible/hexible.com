@@ -5,6 +5,7 @@ import { cn } from "@/utils";
 import { LargeDeviceNav } from "./large-device-nav";
 import { MobileNav } from "./mobile-nav";
 import Link from "next/link";
+import { AppData } from "@/data/app.data";
 
 export const Header = ({
   className,
@@ -21,7 +22,7 @@ export const Header = ({
       <Link href="/">
         <div className="flex items-center gap-x-2 w-32 md:w-40">
           <Logo className="w-6 h-6" />
-          <span className="font-medium text-2xl">Hexible</span>
+          <span className="font-medium text-2xl">{AppData.name}</span>
         </div>
       </Link>
       <LargeDeviceNav className="lg:flex hidden" />

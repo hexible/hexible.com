@@ -12,14 +12,9 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
     >
       <div>
         <h1 className="font-extrabold text-3xl md:text-4xl leading-tight">
-          Your Vision, <br /> Perfectly Engineered
+          {AppData.taglinePart1}, <br /> {AppData.taglinePart2}
         </h1>
-        <h2 className="my-4">
-          10x your revenue with a better digital presence, web design, and app
-          development solutions that engage your visitors like never before.
-          Book a free consultancy call to know how we helped hundreds like you
-          scale from zero to millions with better web solutions.
-        </h2>
+        <h2 className="my-4">{AppData.longDescription}</h2>
         <Link
           href={AppData.consultation.link}
           className={cn(buttonVariants())}

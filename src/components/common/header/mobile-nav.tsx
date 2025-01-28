@@ -7,6 +7,7 @@ import { HeaderNavigationData } from "@/data/navigation.data";
 import { cn } from "@/utils";
 import Link from "next/link";
 import { DialogTitle, DialogDescription } from "@radix-ui/react-dialog"; // Import DialogTitle and DialogDescription
+import { AppData } from "@/data/app.data";
 
 export const MobileNav = ({
   className,
@@ -19,9 +20,9 @@ export const MobileNav = ({
           <Menu className="size-7" />
         </SheetTrigger>
         <SheetContent className="py-12">
-          <DialogTitle className="sr-only">Hexible</DialogTitle>
+          <DialogTitle className="sr-only">{AppData.name}</DialogTitle>
           <DialogDescription className="sr-only">
-            Your Vision, Perfectly Engineered
+            {AppData.taglinePart1}, {AppData.taglinePart2}
           </DialogDescription>
 
           <div className="flex flex-col gap-y-1 mt-3">
