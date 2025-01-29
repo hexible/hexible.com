@@ -5,7 +5,7 @@ export const ProposalBanner = ({ ...props }: React.ComponentProps<"div">) => {
   return (
     <div
       {...props}
-      className="items-center grid grid-cols-1 md:grid-cols-2 bg-main-gray my-16 px-10 py-10 rounded-3xl max-h-80"
+      className="items-center grid grid-cols-1 md:grid-cols-2 bg-main-gray my-16 px-10 py-8 rounded-3xl max-h-96"
     >
       <div>
         <h4 className="font-medium text-xl"> Let&apos;s make things happen</h4>
