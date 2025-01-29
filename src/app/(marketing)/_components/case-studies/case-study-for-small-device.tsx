@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { cn } from "@/utils";
-import { caseStudyData } from "./case-study.data";
+import { CaseStudyData } from "./case-study.data";
 import Link from "next/link";
 
 export const CaseStudyForSmallDevice = ({
@@ -13,7 +13,7 @@ export const CaseStudyForSmallDevice = ({
   return (
     <div {...props} className="md:hidden">
       <Swiper slidesPerView={1.2} spaceBetween={10}>
-        {caseStudyData.map((item) => (
+        {CaseStudyData.map((item) => (
           <SwiperSlide
             key={item.label}
             className="bg-main-dark p-4 rounded-3xl min-h-56 text-main-gray"

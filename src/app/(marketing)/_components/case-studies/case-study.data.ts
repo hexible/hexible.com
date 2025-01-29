@@ -1,14 +1,14 @@
-export const caseStudyData = [
+export const CaseStudyData = [
   {
-    label: `For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.`,
+    label: `For a fintech startup, we developed a secure and scalable web application that streamlined transactions and improved user experience, leading to a 40% increase in customer retention.`,
     url: "#",
   },
   {
-    label: `For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.`,
+    label: `For a healthcare provider, we built a HIPAA-compliant patient management system that reduced administrative workload by 50% and improved appointment scheduling efficiency.`,
     url: "#",
   },
   {
-    label: `For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.`,
+    label: `For an e-commerce business, we designed and developed a custom online store with advanced analytics and automation, resulting in a 35% boost in sales and improved user engagement.`,
     url: "#",
   },
 ];
