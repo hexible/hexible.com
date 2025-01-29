@@ -41,7 +41,7 @@ export const ServiceCard = ({ service, className, ...props }: Props) => {
 
         <Link
           href={service.extantLink || "/"}
-          className="flex items-center gap-x-1"
+          className="flex items-center gap-x-1 mt-4"
         >
           <span
             className={cn(
@@ -64,7 +64,7 @@ export const ServiceCard = ({ service, className, ...props }: Props) => {
           </span>
         </Link>
       </div>
-      <service.Element className="w-32 h-32" />
+      {/* <service.Element className="w-32 h-32" /> */}
     </div>
   );
 };
