@@ -1,7 +1,7 @@
 import { Button } from "@/components";
 import { SectionsHeader } from "@/components/common";
 import { TeamCard } from "./team-card";
-import { teamMemberData } from "./team-member.data";
+import { TeamMemberData } from "./team-member.data";
 
 export const Team = ({ ...props }: React.ComponentProps<"div">) => {
   return (
@@ -13,7 +13,7 @@ export const Team = ({ ...props }: React.ComponentProps<"div">) => {
       />
 
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {teamMemberData.map((data) => (
+        {TeamMemberData.map((data) => (
           <TeamCard data={data} key={data.review} />
         ))}
       </div>

@@ -1,9 +1,9 @@
 import LinkedinIcon from "@/assets/icons/linkedin.svg";
-import { teamMemberData } from "./team-member.data";
+import { TeamMemberData } from "./team-member.data";
 import Image from "next/image";
 
 interface Props extends React.ComponentProps<"div"> {
-  data: (typeof teamMemberData)[number];
+  data: (typeof TeamMemberData)[number];
 }
 
 export const TeamCard = ({ data, ...props }: Props) => {

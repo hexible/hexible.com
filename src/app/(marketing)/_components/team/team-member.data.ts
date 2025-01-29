@@ -5,13 +5,13 @@ import User4 from "@/assets/users/user4.png";
 import User5 from "@/assets/users/user5.png";
 import User6 from "@/assets/users/user6.png";
 
-export const teamMemberData = [
+export const TeamMemberData = [
   {
     name: "Deepak J.",
     image: User1,
     position: "CEO and Co-Founder",
     review:
-      "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+      "10+ years of experience in software development and technology leadership. Expertise in building scalable applications and business strategy.",
     linkedinUrl: "#",
   },
   {
@@ -19,7 +19,7 @@ export const teamMemberData = [
     image: User2,
     position: "CTO and Co-Founder",
     review:
-      "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+      "15+ years of experience in software architecture and engineering. Specializes in cloud computing, DevOps, and full-stack development.",
     linkedinUrl: "#",
   },
   {
@@ -27,7 +27,7 @@ export const teamMemberData = [
     image: User3,
     position: "Tech Lead",
     review:
-      "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+      "5+ years of experience in backend development and system design. Proficient in microservices, API development, and database management.",
     linkedinUrl: "#",
   },
   {
@@ -35,24 +35,23 @@ export const teamMemberData = [
     image: User4,
     position: "Principal Architect",
     review:
-      "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+      "10+ years of experience in designing and implementing scalable software solutions. Strong expertise in cloud architecture and system security.",
     linkedinUrl: "#",
   },
-
   {
     name: "Vineet Kumar",
     image: User5,
-    position: "SEO Specialist",
+    position: "Software Engineer",
     review:
-      "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
+      "5+ years of experience in front-end and back-end development. Skilled in React, Node.js, and modern web technologies.",
     linkedinUrl: "#",
   },
-
   {
     name: "Himanshu Sharma",
     image: User6,
-    position: "Digital Advertising Specialist",
-    review: `2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries`,
+    position: "QA Engineer",
+    review:
+      "2+ years of experience in software testing and quality assurance. Proficient in automation testing, performance testing, and bug tracking.",
     linkedinUrl: "#",
   },
 ];
