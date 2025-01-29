@@ -1,92 +1,92 @@
 export const TestimonialsData = [
   {
     name: "Alice Johnson",
-    position: "Marketing Manager",
+    position: "Project Manager",
     review:
-      "This service exceeded our expectations. Highly recommend to anyone looking to boost their online presence!",
+      "The Hexible team delivered a high-quality software solution that streamlined our operations. Highly recommend their services!",
   },
   {
     name: "Robert Wilson",
     position: "CEO",
     review:
-      "Professional and efficient team. We saw significant improvements in our digital marketing strategy.",
+      "Professional and efficient team. They understood our requirements perfectly and built a scalable platform that exceeded our expectations.",
   },
   {
     name: "Emily Davis",
-    position: "Social Media Coordinator",
+    position: "CTO",
     review:
-      "Great results and excellent customer service. The team is very knowledgeable and helpful.",
+      "Hexible’s expertise in software development helped us create a robust and secure application. Their attention to detail is outstanding.",
   },
   {
     name: "Michael Thompson",
-    position: "Content Strategist",
+    position: "Software Engineer",
     review:
-      "Their strategies helped us increase our engagement and reach a broader audience. Very impressed!",
+      "Their development process was smooth and well-structured. The final product was bug-free and met all our technical requirements.",
   },
   {
     name: "Jessica Lee",
-    position: "Digital Marketing Specialist",
+    position: "Product Owner",
     review:
-      "A fantastic experience from start to finish. The team really knows their stuff and delivers results.",
+      "A fantastic experience from start to finish. The team really knows their craft and delivered an exceptional software product.",
   },
   {
     name: "Daniel Carter",
-    position: "Brand Manager",
+    position: "Startup Founder",
     review:
-      "Their creative approach to branding gave our company a fresh and modern image. Truly exceptional work!",
+      "Hexible played a crucial role in developing our MVP. Their agile approach and quick iterations helped us launch on time.",
   },
   {
     name: "Sophia Martinez",
-    position: "Freelance Photographer",
+    position: "UI/UX Designer",
     review:
-      "I am amazed by the level of professionalism and dedication. My online portfolio looks stunning!",
+      "Their design and development team worked seamlessly to create an intuitive and visually appealing user experience.",
   },
   {
     name: "James Anderson",
-    position: "E-commerce Store Owner",
+    position: "E-commerce Business Owner",
     review:
-      "Their SEO optimization strategies significantly boosted my website traffic. Highly appreciated!",
+      "Their custom e-commerce solution helped us scale our business and improve our customer experience. Highly appreciated!",
   },
   {
     name: "Olivia Brown",
-    position: "Graphic Designer",
+    position: "Tech Entrepreneur",
     review:
-      "Their insights into digital marketing were game-changing for my freelance business. Highly recommend!",
+      "Their insights into software architecture and development were game-changing for our startup. Highly recommend!",
   },
   {
     name: "William Harris",
-    position: "Tech Startup Founder",
+    position: "IT Director",
     review:
-      "The team's ability to understand our needs and deliver on time was impressive. Exceptional work!",
+      "The team's ability to understand our technical needs and deliver on time was impressive. Exceptional work!",
   },
   {
     name: "Charlotte King",
     position: "Product Manager",
     review:
-      "Their attention to detail and innovative ideas helped us launch our product successfully.",
+      "Their attention to detail and innovative approach helped us launch a successful SaaS product.",
   },
   {
     name: "Henry Scott",
-    position: "Event Planner",
+    position: "Operations Manager",
     review:
-      "Thanks to their social media campaigns, my event planning business reached a wider audience.",
+      "Thanks to their custom software solutions, our internal processes are now much more efficient and automated.",
   },
   {
     name: "Amelia Clark",
-    position: "Fitness Coach",
+    position: "HealthTech Founder",
     review:
-      "They completely transformed my website and helped me attract more clients online. Amazing job!",
+      "They built a secure and compliant healthcare platform that met all industry standards. Amazing job!",
   },
   {
     name: "Lucas Adams",
-    position: "Real Estate Agent",
+    position: "Real Estate Tech CEO",
     review:
-      "Professional, efficient, and results-driven. My property listings now get much better visibility.",
+      "Professional, efficient, and results-driven. Our property management software is now more user-friendly and scalable.",
   },
   {
     name: "Isabella Green",
-    position: "Public Relations Specialist",
+    position: "Cybersecurity Consultant",
     review:
-      "Their expertise in PR and digital marketing helped us create a strong online presence.",
+      "Their expertise in secure software development helped us create a highly reliable and compliant system.",
   },
 ];
