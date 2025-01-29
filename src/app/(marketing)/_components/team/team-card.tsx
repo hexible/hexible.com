@@ -8,7 +8,7 @@ export const TeamCard = ({ data, ...props }: Props) => {
   return (
     <div
       {...props}
-      className="border-main-black/70 px-4 md:px-8 py-4 border border-b-4 border-b-main-black rounded-3xl"
+      className="border-main-black/70 bg-main-gray px-4 md:px-8 py-4 border border-b-4 border-b-main-black rounded-3xl"
     >
       <div id="user-data" className="flex items-center gap-2">
         {/* <Image src={data.image} alt={data.name} /> */}
@@ -17,8 +17,8 @@ export const TeamCard = ({ data, ...props }: Props) => {
             <LinkedinIcon />
           </a> */}
           <div>
-            <p> {data.name} </p>
-            <p> {data.position} </p>
+            <p className="font-bold"> {data.name} </p>
+            <p className="text-sm"> {data.position} </p>
           </div>
         </div>
       </div>
