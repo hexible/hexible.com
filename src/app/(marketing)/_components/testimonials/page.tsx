@@ -18,16 +18,17 @@ export const Testimonials = ({ ...props }: React.ComponentProps<"div">) => {
         description2="to Learn More about Our Software Development Services"
       />
 
-      <div className="bg-main-black my-10 px-2 py-10 rounded-3xl">
+      <div className="bg-main-black my-10 md:px-12 py-10 rounded-3xl">
         <Swiper
           className="mySwiper"
           modules={[Autoplay]}
           slidesPerView={1}
-          spaceBetween={30}
+          spaceBetween={40}
+          speed={1200}
           breakpoints={{
             768: {
               slidesPerView: 2.5,
-              spaceBetween: 40,
+              spaceBetween: 30,
             },
           }}
           autoplay={{
