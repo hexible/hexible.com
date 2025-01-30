@@ -10,7 +10,7 @@ import { WorkingProcess } from "./_components/working-process/page";
 import { AppData } from "@/data/app.data";
 
 export const metadata: Metadata = {
-  title: `${AppData.name}: ${AppData.taglinePart1} ${AppData.taglinePart2}`,
+  title: `${AppData.name}: ${AppData.taglinePart1}, ${AppData.taglinePart2}`,
   description: AppData.longDescription,
 };
 
