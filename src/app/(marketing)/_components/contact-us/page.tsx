@@ -3,16 +3,16 @@ import { SectionsHeader } from "@/components/common";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { ContactForm } from "./contact-form";
+import { ContactUsData } from "./contact-us.data";
 
 export const ContactUs = ({ ...props }: React.ComponentProps<"div">) => {
   return (
     <div {...props}>
       <SectionsHeader
-        heading="Contact Us"
-        description1="Connect with Us: Let's Discuss Your"
-        description2="Software Development Needs"
+        heading={ContactUsData.heading}
+        description1={ContactUsData.description1}
+        description2={ContactUsData.description2}
       />
-
       <div className="relative bg-main-gray my-4 rounded-3xl min-h-60 overflow-hidden">
         <div className="px-6 py-8 lg:p-10">
           <RadioGroup defaultValue="option-one" className="flex gap-x-5">

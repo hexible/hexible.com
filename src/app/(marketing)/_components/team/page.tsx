@@ -1,19 +1,19 @@
 import { Button } from "@/components";
 import { SectionsHeader } from "@/components/common";
 import { TeamCard } from "./team-card";
-import { TeamMemberData } from "./team-member.data";
+import { TeamsData } from "./teams.data";
 
 export const Team = ({ ...props }: React.ComponentProps<"div">) => {
   return (
     <div {...props}>
       <SectionsHeader
-        heading="Team"
-        description1="Meet the skilled and experienced team behind our "
-        description2="successful software development projects"
+        heading={TeamsData.heading}
+        description1={TeamsData.description1}
+        description2={TeamsData.description2}
       />
 
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {TeamMemberData.map((data) => (
+        {TeamsData.items.map((data) => (
           <TeamCard data={data} key={data.review} />
         ))}
       </div>

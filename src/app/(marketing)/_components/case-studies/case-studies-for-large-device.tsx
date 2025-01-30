@@ -12,7 +12,7 @@ export const CaseStudiesForLargeDevice = ({
       className="justify-center hidden md:grid grid-cols-1 md:grid-cols-3 bg-main-dark p-8 rounded-3xl text-main-gray"
       {...props}
     >
-      {CaseStudyData.map(({ label, url }, index) => {
+      {CaseStudyData.items.map(({ label, url }, index) => {
         return (
           <div
             key={label}

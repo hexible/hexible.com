@@ -2,11 +2,11 @@ import React from "react";
 import { ArrowUpRight } from "lucide-react";
 
 import { cn } from "@/utils";
-import { serviceList } from "./service-list.data";
+import { ServicesData } from "./services.data";
 import Link from "next/link";
 
 interface Props extends React.ComponentProps<"div"> {
-  service: (typeof serviceList)[number];
+  service: (typeof ServicesData.items)[number];
 }
 
 export const ServiceCard = ({ service, className, ...props }: Props) => {

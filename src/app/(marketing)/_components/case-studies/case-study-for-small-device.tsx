@@ -13,7 +13,7 @@ export const CaseStudyForSmallDevice = ({
   return (
     <div {...props} className="md:hidden">
       <Swiper slidesPerView={1.2} spaceBetween={10}>
-        {CaseStudyData.map((item) => (
+        {CaseStudyData.items.map((item) => (
           <SwiperSlide
             key={item.label}
             className="bg-main-dark p-4 rounded-3xl min-h-56 text-main-gray"

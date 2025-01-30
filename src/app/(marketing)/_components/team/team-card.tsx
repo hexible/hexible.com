@@ -1,7 +1,7 @@
-import { TeamMemberData } from "./team-member.data";
+import { TeamsData } from "./teams.data";
 
 interface Props extends React.ComponentProps<"div"> {
-  data: (typeof TeamMemberData)[number];
+  data: (typeof TeamsData)[number];
 }
 
 export const TeamCard = ({ data, ...props }: Props) => {
