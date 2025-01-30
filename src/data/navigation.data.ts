@@ -8,8 +8,8 @@ export const HeaderNavigationData = [
     link: "services",
   },
   {
-    label: "Use Cases",
-    link: "use-cases",
+    label: "Case Studies",
+    link: "case-studies",
   },
   {
     label: "Pricing",
