@@ -1,6 +1,7 @@
 export const CaseStudyData = {
   heading: "Case Studies",
-  description1: "Explore Real-Life Examples of Our Proven Software Development",
+  description1:
+    "Explore Real-Life Examples of Our Proven Software Development ",
   description2: "Success through Our Case Studies",
   items: [
     {

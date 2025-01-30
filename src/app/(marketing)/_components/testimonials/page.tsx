@@ -13,9 +13,9 @@ export const Testimonials = ({ ...props }: React.ComponentProps<"div">) => {
   return (
     <div {...props}>
       <SectionsHeader
-        heading="Testimonials"
-        description1="Hear from Our Satisfied Clients: Read Our Testimonials"
-        description2="to Learn More about Our Software Development Services"
+        heading={TestimonialsData.heading}
+        description1={TestimonialsData.description1}
+        description2={TestimonialsData.description2}
       />
 
       <div className="bg-main-black my-10 md:px-12 py-10 rounded-3xl">
@@ -36,7 +36,7 @@ export const Testimonials = ({ ...props }: React.ComponentProps<"div">) => {
             disableOnInteraction: false,
           }}
         >
-          {TestimonialsData.map((data) => (
+          {TestimonialsData.items.map((data) => (
             <SwiperSlide key={data.name + data.position}>
               <ReviewCards data={data} />
             </SwiperSlide>

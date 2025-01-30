@@ -1,7 +1,7 @@
 import { TeamsData } from "./teams.data";
 
 interface Props extends React.ComponentProps<"div"> {
-  data: (typeof TeamsData)[number];
+  data: (typeof TeamsData.items)[number];
 }
 
 export const TeamCard = ({ data, ...props }: Props) => {

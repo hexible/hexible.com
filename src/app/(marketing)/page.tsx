@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { CaseStudies } from "./_components/case-studies/page";
 import { ClientList } from "./_components/clients/client-list";
 import { ContactUs } from "./_components/contact-us/page";
-import { Hero } from "./_components/hero";
+import { Hero } from "./_components/hero/hero";
 import { Service } from "./_components/services/page";
 import { Team } from "./_components/team/page";
 import { Testimonials } from "./_components/testimonials/page";
