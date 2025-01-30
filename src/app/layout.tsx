@@ -9,8 +9,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: AppData.name,
-  description: AppData.taglinePart1 + " " + AppData.taglinePart2,
+  title: `${AppData.name}: ${AppData.taglinePart1} ${AppData.taglinePart2}`,
+  description: AppData.longDescription,
 };
 
 export default function RootLayout({
