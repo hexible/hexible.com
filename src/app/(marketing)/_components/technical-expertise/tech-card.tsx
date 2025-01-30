@@ -10,7 +10,7 @@ export const TechCard = ({ item, ...props }: Props) => {
       {...props}
       className="border-main-black/70 px-4 md:px-8 py-4 border border-b-4 border-b-main-black rounded-3xl"
     >
-      <div id="user-data" className="flex items-center gap-2">
+      <div className="flex items-center gap-2">
         <div className="flex flex-col flex-1 justify-between">
           <div className="flex flex-col justify-center items-center">
             <item.icon className="w-12 h-12" />

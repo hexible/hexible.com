@@ -1,7 +1,7 @@
 import { TestimonialsData } from "./testimonials.data";
 
 interface Props extends React.ComponentProps<"div"> {
-  data: (typeof TestimonialsData)[number];
+  data: (typeof TestimonialsData.items)[number];
 }
 
 export const ReviewCards = ({ data, ...props }: Props) => {
