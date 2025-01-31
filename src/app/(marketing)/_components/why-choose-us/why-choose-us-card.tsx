@@ -14,7 +14,7 @@ export const WhyChooseUsCard = ({ item, ...props }: Props) => {
         <div className="flex flex-col flex-1 justify-between">
           <div className="flex flex-col justify-center items-center">
             <item.icon className="mb-3 w-24 h-24" />
-            <p className="p-2 font-bold text-center">{item.heading}</p>
+            <p className="p-2 font-bold text-center text-lg">{item.heading}</p>
             <p className="text-center text-sm">{item.description}</p>
           </div>
         </div>
