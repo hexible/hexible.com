@@ -1,13 +1,14 @@
-import StarEmoticon from "@/assets/Illustration/emoticon-likes-and-stars-around 2.svg";
-import MobileDevelopment from "@/assets/services/mobile-development.svg";
-import SendingMessage from "@/assets/Illustration/sending-messages-from-one-place-to-another 1.svg";
-import VolumetricAnalytics from "@/assets/Illustration/volumetric-analytics-of-different-types-in-web-browsers 2.svg";
-import Img1 from "@/assets/Illustration/web-search-with-elements 2.svg";
+import WebDevelopment from "@/assets/services/web-development.svg";
+import DataAnalytics from "@/assets/services/data-analytics.svg";
+import CloudSolutions from "@/assets/services/cloud-solutions.svg";
+import Maintenance from "@/assets/services/maintenance.svg";
+import UIUX from "@/assets/services/figma.svg";
+import AI from "@/assets/services/chatgpt.svg";
 
 type ServiceType = {
   heading1: string;
   heading2: string;
-  Element: typeof MobileDevelopment;
+  Element: typeof WebDevelopment;
   extantLink: string;
   bgColor: "gray" | "green" | "black";
 };
@@ -26,42 +27,42 @@ export const ServicesData: {
     {
       heading1: "Web/Mobile",
       heading2: "Development",
-      Element: Img1,
+      Element: WebDevelopment,
       bgColor: "gray",
       extantLink: "#",
     },
     {
       heading1: "UI/UX",
       heading2: "Design",
-      Element: MobileDevelopment,
+      Element: UIUX,
       bgColor: "green",
       extantLink: "#",
     },
     {
       heading1: "AI/ML",
       heading2: "Integrations",
-      Element: StarEmoticon,
+      Element: AI,
       bgColor: "black",
       extantLink: "#",
     },
     {
       heading1: "Cloud",
-      heading2: "DevOps",
-      Element: SendingMessage,
+      heading2: "Solutions",
+      Element: CloudSolutions,
       bgColor: "green",
       extantLink: "#",
     },
     {
       heading1: "BI and",
       heading2: "Data Analytics",
-      Element: VolumetricAnalytics,
-      bgColor: "gray",
+      Element: DataAnalytics,
+      bgColor: "black",
       extantLink: "#",
     },
     {
       heading1: "Website",
       heading2: "Maintenance",
-      Element: VolumetricAnalytics,
+      Element: Maintenance,
       bgColor: "gray",
       extantLink: "#",
     },

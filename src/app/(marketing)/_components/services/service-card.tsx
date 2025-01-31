@@ -19,7 +19,7 @@ export const ServiceCard = ({ service, className, ...props }: Props) => {
     <div
       {...props}
       className={cn(
-        "border border-main-black w-full rounded-3xl  grid grid-cols-2 p-8   border-b-4 border-b-main-black",
+        "border border-main-black w-full rounded-3xl grid grid-cols-2 p-8 border-b-4 border-b-main-black",
         className,
         {
           "bg-main-gray": service.bgColor === "gray",
@@ -64,7 +64,14 @@ export const ServiceCard = ({ service, className, ...props }: Props) => {
           </span>
         </Link>
       </div>
-      {/* <service.Element className="w-32 h-32" /> */}
+      <div className="flex justify-center items-center">
+        <service.Element
+          style={{
+            fill: service.bgColor === "black" ? "white" : "text-main-black",
+          }}
+          className="w-24 h-24"
+        />
+      </div>
     </div>
   );
 };
