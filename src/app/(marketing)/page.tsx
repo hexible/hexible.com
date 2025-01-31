@@ -9,6 +9,7 @@ import { Testimonials } from "./_components/testimonials/page";
 import { WorkingProcess } from "./_components/working-process/page";
 import { AppData } from "@/data/app.data";
 import { TechnicalExpertise } from "./_components/technical-expertise/page";
+import { WhyChooseUs } from "./_components/why-choose-us/page";
 
 export const metadata: Metadata = {
   title: `${AppData.name}: ${AppData.taglinePart1}, ${AppData.taglinePart2}`,
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero />
       <ClientList />
       <Service />
+      <WhyChooseUs />
       <TechnicalExpertise />
       <CaseStudies />
       <WorkingProcess />

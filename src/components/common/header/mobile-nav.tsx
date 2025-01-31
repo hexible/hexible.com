@@ -25,7 +25,7 @@ export const MobileNav = ({
             {AppData.taglinePart1}, {AppData.taglinePart2}
           </DialogDescription>
 
-          <div className="flex flex-col gap-y-1 mt-3">
+          <div className="flex flex-col gap-y-1 mt-3 py-4">
             {HeaderNavigationData.map(({ label, link }) => (
               <Link
                 href={link}

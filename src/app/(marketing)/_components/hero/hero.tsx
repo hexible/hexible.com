@@ -25,7 +25,7 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
         </Link>
       </div>
 
-      <div className="md:block flex justify-center items-center hidden">
+      <div className="md:block justify-center items-center hidden">
         <HeroImg className="w-full h-72" />
       </div>
     </main>
