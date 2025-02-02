@@ -18,7 +18,7 @@ export const ContactLinksData = [
 
   {
     name: "YouTube",
-    url: "https://www.youtube.com/hexible",
+    url: "https://www.youtube.com/@hexible",
   },
   {
     name: "Facebook",
