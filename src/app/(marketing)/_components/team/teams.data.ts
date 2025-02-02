@@ -1,10 +1,3 @@
-import User1 from "@/assets/users/user1.png";
-import User2 from "@/assets/users/user2.png";
-import User3 from "@/assets/users/user3.png";
-import User4 from "@/assets/users/user4.png";
-import User5 from "@/assets/users/user5.png";
-import User6 from "@/assets/users/user6.png";
-
 export const TeamsData = {
   heading: "Our Team",
   description1: "Meet the skilled and experienced team behind our ",
@@ -12,7 +5,7 @@ export const TeamsData = {
   items: [
     {
       name: "Deepak J.",
-      image: User1,
+      image: "",
       position: "CEO and Co-Founder",
       review:
         "10+ years of experience in software development and technology leadership. Expertise in building scalable applications and business strategy.",
@@ -20,7 +13,7 @@ export const TeamsData = {
     },
     {
       name: "Gaurav J.",
-      image: User2,
+      image: "",
       position: "CTO and Co-Founder",
       review:
         "15+ years of experience in software architecture and engineering. Specializes in cloud computing, DevOps, and full-stack development.",
@@ -28,7 +21,7 @@ export const TeamsData = {
     },
     {
       name: "Vivek Kumar",
-      image: User4,
+      image: "",
       position: "Principal Architect",
       review:
         "10+ years of experience in designing and implementing scalable software solutions. Strong expertise in cloud architecture and system security.",
@@ -36,7 +29,7 @@ export const TeamsData = {
     },
     {
       name: "Dinesh Charkhwal",
-      image: User3,
+      image: "",
       position: "Tech Lead",
       review:
         "5+ years of experience in backend development and system design. Proficient in microservices, API development, and database management.",
@@ -44,7 +37,7 @@ export const TeamsData = {
     },
     {
       name: "Vineet Kumar",
-      image: User5,
+      image: "",
       position: "Software Engineer",
       review:
         "5+ years of experience in front-end and back-end development. Skilled in React, Node.js, and modern web technologies.",
@@ -52,7 +45,7 @@ export const TeamsData = {
     },
     {
       name: "Himanshu Sharma",
-      image: User6,
+      image: "",
       position: "QA Engineer",
       review:
         "2+ years of experience in software testing and quality assurance. Proficient in automation testing, performance testing, and bug tracking.",

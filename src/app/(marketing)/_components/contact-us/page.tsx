@@ -1,4 +1,4 @@
-import HalfRing from "@/assets/Illustration/halh-ring-with-starts.svg";
+import HalfRing from "@/assets/Illustration/half-zig-ring.svg";
 import { SectionsHeader } from "@/components/common";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";

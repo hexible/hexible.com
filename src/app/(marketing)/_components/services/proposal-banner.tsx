@@ -1,11 +1,11 @@
-import FaceStar from "@/assets/Illustration/face-star.svg";
+import BusinessDeal from "@/assets/Illustration/business-deal.svg";
 import { Button } from "@/components";
 
 export const ProposalBanner = ({ ...props }: React.ComponentProps<"div">) => {
   return (
     <div
       {...props}
-      className="items-center grid grid-cols-1 md:grid-cols-2 bg-main-gray my-16 px-10 py-8 rounded-3xl max-h-96"
+      className="items-center grid grid-cols-1 md:grid-cols-2 bg-main-gray my-20 px-10 py-8 rounded-3xl max-h-96"
     >
       <div>
         <h4 className="font-medium text-xl"> Let&apos;s make things happen</h4>
@@ -19,7 +19,7 @@ export const ProposalBanner = ({ ...props }: React.ComponentProps<"div">) => {
       </div>
 
       <div className="md:flex justify-center items-center hidden">
-        <FaceStar className="relative scale-125 size-60" />
+        <BusinessDeal className="relative scale-125 size-60" />
       </div>
     </div>
   );
