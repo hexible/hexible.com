@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import { Menu } from "lucide-react";
 
 import { Button } from "@/components/ui";
@@ -13,9 +15,15 @@ export const MobileNav = ({
   className,
   ...props
 }: React.ComponentProps<"div">) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div id="mobile-device-nav" className={cn(className)} {...props}>
-      <Sheet>
+      <Sheet open={isOpen} onOpenChange={setIsOpen}>
         <SheetTrigger className="flex items-center">
           <Menu className="size-7" />
         </SheetTrigger>
@@ -31,6 +39,7 @@ export const MobileNav = ({
                 href={link}
                 key={label + link}
                 className="font-bold text-xl"
+                onClick={handleLinkClick}
               >
                 {label}
               </Link>
