@@ -5,23 +5,23 @@ export const HeaderNavigationData = [
   },
   {
     label: "Services",
-    link: "services",
+    link: "/services",
   },
   {
     label: "Case Studies",
-    link: "case-studies",
+    link: "/case-studies",
   },
   {
     label: "Pricing",
-    link: "pricing",
+    link: "/pricing",
   },
   {
     label: "Blogs",
-    link: "blogs",
+    link: "/blogs",
   },
   {
     label: "About Us",
-    link: "about-us",
+    link: "/about-us",
   },
 ];
 
