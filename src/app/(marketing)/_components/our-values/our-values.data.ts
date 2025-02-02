@@ -12,11 +12,11 @@ export const OurValuesData = {
   description2:
     "These principles shape our culture, guide our decisions, and define how we innovate and collaborate.",
   items: [
-    { heading: "Integrity", icon: Integrity },
-    { heading: "Transparency", icon: Transparency },
-    { heading: "Innovation", icon: Innovation },
     { heading: "Agile", icon: Agile },
     { heading: "Customer-Centricity", icon: CustomerCentricity },
+    { heading: "Transparency", icon: Transparency },
+    { heading: "Innovation", icon: Innovation },
     { heading: "Global Perspective", icon: GlobalPerspective },
+    { heading: "Integrity", icon: Integrity },
   ],
 };
