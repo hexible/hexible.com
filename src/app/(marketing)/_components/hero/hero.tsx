@@ -10,7 +10,7 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
       className="justify-between items-center grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-12 h-full"
       {...rest}
     >
-      <div>
+      <div className="order-2 md:order-1">
         <h1 className="font-extrabold text-3xl md:text-4xl leading-tight">
           {AppData.taglinePart1}, <br /> {AppData.taglinePart2}
         </h1>
@@ -25,7 +25,7 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
         </Link>
       </div>
 
-      <div className="md:block justify-center items-center hidden">
+      <div className="justify-center items-center order-1 md:order-2">
         <HeroImg className="w-full h-72" />
       </div>
     </main>
