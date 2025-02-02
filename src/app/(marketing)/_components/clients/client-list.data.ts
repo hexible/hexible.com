@@ -14,8 +14,8 @@ export const clientListData = [
   { name: "Trutext", image: Trutext },
   { name: "SimpleTiger", image: SimpleTiger },
   { name: "Mangalam", image: Mangalam },
+  { name: "Gretel", image: Gretel },
   { name: "Ashadeep", image: Ashadeep },
   { name: "PocketInformant", image: PocketInformant },
   { name: "PlanPlusOnline", image: PlanPlusOnline },
-  { name: "Gretel", image: Gretel },
 ];

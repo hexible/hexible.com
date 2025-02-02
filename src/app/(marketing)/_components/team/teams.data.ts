@@ -27,19 +27,19 @@ export const TeamsData = {
       linkedinUrl: "#",
     },
     {
-      name: "Dinesh Jangra",
-      image: User3,
-      position: "Tech Lead",
-      review:
-        "5+ years of experience in backend development and system design. Proficient in microservices, API development, and database management.",
-      linkedinUrl: "#",
-    },
-    {
       name: "Vivek Kumar",
       image: User4,
       position: "Principal Architect",
       review:
         "10+ years of experience in designing and implementing scalable software solutions. Strong expertise in cloud architecture and system security.",
+      linkedinUrl: "#",
+    },
+    {
+      name: "Dinesh Charkhwal",
+      image: User3,
+      position: "Tech Lead",
+      review:
+        "5+ years of experience in backend development and system design. Proficient in microservices, API development, and database management.",
       linkedinUrl: "#",
     },
     {

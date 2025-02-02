@@ -67,7 +67,7 @@ export const ServiceCard = ({ service, className, ...props }: Props) => {
       <div className="flex justify-center items-center">
         <service.Element
           style={{
-            fill: service.bgColor === "black" ? "white" : "text-main-black",
+            fill: "bg-main-green",
           }}
           className="w-24 h-24"
         />

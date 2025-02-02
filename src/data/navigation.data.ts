@@ -47,7 +47,7 @@ export const CompanyFooterNavigationData = [
   },
   {
     label: "Services",
-    link: "/servces",
+    link: "/services",
   },
   {
     label: "Pricing",
