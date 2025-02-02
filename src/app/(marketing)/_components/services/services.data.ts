@@ -3,14 +3,13 @@ import DataAnalytics from "@/assets/services/data-analytics.svg";
 import CloudSolutions from "@/assets/services/cloud-solutions.svg";
 import Maintenance from "@/assets/services/maintenance.svg";
 import UIUX from "@/assets/services/figma.svg";
-import AI from "@/assets/services/chatgpt.svg";
+import AI from "@/assets/services/AI-ML.svg";
 
 type ServiceType = {
   heading1: string;
   heading2: string;
   Element: typeof WebDevelopment;
   extantLink: string;
-  bgColor: "gray" | "green" | "black";
 };
 
 export const ServicesData: {
@@ -28,42 +27,36 @@ export const ServicesData: {
       heading1: "Web/Mobile",
       heading2: "Development",
       Element: WebDevelopment,
-      bgColor: "gray",
       extantLink: "#",
     },
     {
       heading1: "UI/UX",
       heading2: "Design",
       Element: UIUX,
-      bgColor: "black",
       extantLink: "#",
     },
     {
       heading1: "AI/ML",
       heading2: "Integrations",
       Element: AI,
-      bgColor: "gray",
       extantLink: "#",
     },
     {
       heading1: "Cloud",
       heading2: "Solutions",
       Element: CloudSolutions,
-      bgColor: "black",
       extantLink: "#",
     },
     {
       heading1: "BI and",
       heading2: "Data Analytics",
       Element: DataAnalytics,
-      bgColor: "gray",
       extantLink: "#",
     },
     {
       heading1: "Website",
       heading2: "Maintenance",
       Element: Maintenance,
-      bgColor: "black",
       extantLink: "#",
     },
   ],

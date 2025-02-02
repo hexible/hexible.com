@@ -10,33 +10,19 @@ interface Props extends React.ComponentProps<"div"> {
 }
 
 export const ServiceCard = ({ service, className, ...props }: Props) => {
-  const headingStyle = {
-    "bg-main-green": service.bgColor === "gray",
-    "bg-[#F3F3F3]": service.bgColor === "black" || service.bgColor === "green",
-  };
-
   return (
     <div
       {...props}
       className={cn(
-        "border border-main-black w-full rounded-3xl grid grid-cols-2 p-8 border-b-4 border-b-main-black",
-        className,
-        {
-          "bg-main-gray": service.bgColor === "gray",
-          "bg-main-black": service.bgColor === "black",
-          "bg-main-green": service.bgColor === "green",
-        }
+        "border w-full rounded-3xl grid grid-cols-2 p-8 border-b-4 border-main-black/70 border-b-main-black",
+        className
       )}
     >
       <div className="flex flex-col justify-between">
         <h6 className={cn("md:text-xl text-base font-semibold text-nowrap")}>
-          <span className={cn("p-1 rounded-xl", headingStyle)}>
-            {service.heading1}
-          </span>
+          <span className={cn("p-1 rounded-xl")}>{service.heading1}</span>
           <br />
-          <span className={cn("p-1 rounded-xl", headingStyle)}>
-            {service.heading2}
-          </span>
+          <span className={cn("p-1 rounded-xl")}>{service.heading2}</span>
         </h6>
 
         <Link
@@ -45,32 +31,16 @@ export const ServiceCard = ({ service, className, ...props }: Props) => {
         >
           <span
             className={cn(
-              `flex items-center justify-center bg-main-black p-2 rounded-full`,
-              { "bg-main-gray": service.bgColor === "black" }
+              `flex items-center justify-center bg-main-black p-2 rounded-full`
             )}
           >
-            <ArrowUpRight
-              className={cn("text-main-green", {
-                "text-main-black": service.bgColor === "black",
-              })}
-            />
+            <ArrowUpRight className={cn("text-white")} />
           </span>
-          <span
-            className={cn("text-main-black", {
-              "text-main-gray": service.bgColor === "black",
-            })}
-          >
-            Learn More
-          </span>
+          <span className={cn("text-main-black underline")}>Learn More</span>
         </Link>
       </div>
       <div className="flex justify-center items-center">
-        <service.Element
-          style={{
-            fill: "bg-main-green",
-          }}
-          className="w-24 h-24"
-        />
+        <service.Element className="w-24 h-24" />
       </div>
     </div>
   );
