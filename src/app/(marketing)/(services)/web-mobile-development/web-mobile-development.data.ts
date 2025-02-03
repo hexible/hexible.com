@@ -2,7 +2,7 @@ import WebDevelopment from "@/assets/services/web-development.svg";
 import MobileDev from "@/assets/icons/mobile-development.svg";
 import Frontend from "@/assets/services/UI.svg";
 import Backend from "@/assets/icons/backend.svg";
-import CMS from "@/assets/icons/cms.svg";
+import CMS from "@/assets/icons/CMS.svg";
 import APIIntegration from "@/assets/icons/API.svg";
 
 export const WebMobileDevelopmentData = {
