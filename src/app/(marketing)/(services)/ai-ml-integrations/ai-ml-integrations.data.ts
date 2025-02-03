@@ -8,7 +8,7 @@ import BusinessIntelligence from "@/assets/icons/revenue.svg";
 export const AIMLIntegrationsData = {
   title: "AI/ML Integrations",
   description:
-    "Unlock the power of AI and Machine Learning with our advanced solutions designed to drive automation, enhance decision-making, and optimize business performance.",
+    "Leverage the power of AI and Machine Learning with our cutting-edge solutions that drive automation, boost decision-making, and optimize business performance. Our tailored AI-driven strategies help streamline operations, predict trends, and deliver actionable insights, allowing you to stay ahead in an increasingly competitive market.",
   sections: [
     {
       heading: "AI-Powered Automation",

@@ -8,7 +8,7 @@ import DecisionSupport from "@/assets/icons/decision.svg";
 export const BIDataAnalyticsData = {
   title: "BI & Data Analytics",
   description:
-    "Leverage Business Intelligence and Data Analytics to unlock actionable insights, optimize performance, and drive data-driven decision-making.",
+    "Utilize Business Intelligence and Data Analytics to uncover valuable insights, enhance operational performance, and empower data-driven decision-making. Our solutions provide real-time analytics, predictive insights, and comprehensive reporting to help your business make informed choices, improve efficiency, and stay competitive in a data-driven world.",
   sections: [
     {
       heading: "Business Intelligence & Reporting",
