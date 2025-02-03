@@ -5,7 +5,33 @@ export const HeaderNavigationData = [
   },
   {
     label: "Services",
-    link: "/services",
+    link: "#",
+    children: [
+      {
+        label: "Web/Mobile Development",
+        link: "/web-mobile-development",
+      },
+      {
+        label: "UI/UX Design",
+        link: "/ui-ux-design",
+      },
+      {
+        label: "AI/ML Integrations",
+        link: "/ai-ml-integrations",
+      },
+      {
+        label: "Cloud Solutions",
+        link: "/cloud-solutions",
+      },
+      {
+        label: "BI & Data Analytics",
+        link: "/bi-data-analytics",
+      },
+      {
+        label: "Software Maintenance",
+        link: "/software-maintenance",
+      },
+    ],
   },
   {
     label: "Case Studies",
@@ -44,10 +70,6 @@ export const CompanyFooterNavigationData = [
   {
     label: "About us",
     link: "/about-us",
-  },
-  {
-    label: "Services",
-    link: "/services",
   },
   {
     label: "Pricing",
