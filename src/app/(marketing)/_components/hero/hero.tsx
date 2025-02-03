@@ -11,7 +11,7 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
       {...rest}
     >
       <div className="order-2 md:order-1">
-        <h1 className="font-extrabold text-3xl md:text-4xl leading-tight">
+        <h1 className="font-extrabold text-4xl md:text-5xl leading-tight">
           {AppData.taglinePart1}, <br /> {AppData.taglinePart2}
         </h1>
         <h2 className="my-4">{AppData.longDescription}</h2>
@@ -26,7 +26,7 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
       </div>
 
       <div className="justify-center items-center order-1 md:order-2">
-        <HeroImg className="w-full h-72" />
+        <HeroImg className="w-full h-72 md:h-80" />
       </div>
     </main>
   );

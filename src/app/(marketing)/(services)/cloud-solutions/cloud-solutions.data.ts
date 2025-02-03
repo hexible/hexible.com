@@ -11,7 +11,7 @@ export const CloudSolutionsData = {
     "Transform your business with scalable, secure, and cost-effective cloud solutions. We help businesses migrate to the cloud, optimize performance, and leverage the latest cloud technologies for seamless, efficient operations. Whether you need cloud infrastructure management, security enhancements, or hybrid cloud deployments, we provide comprehensive solutions tailored to your needs.",
   sections: [
     {
-      heading: "Cloud Migration & Deployment",
+      heading: "Cloud Migration",
       icon: CloudMigration,
       items: [
         "Cloud Strategy & Roadmap",
@@ -22,7 +22,7 @@ export const CloudSolutionsData = {
       ],
     },
     {
-      heading: "Cloud Security Solutions",
+      heading: "Cloud Security",
       icon: CloudSecurity,
       items: [
         "End-to-End Cloud Security",
@@ -33,7 +33,7 @@ export const CloudSolutionsData = {
       ],
     },
     {
-      heading: "Cloud Performance Optimization",
+      heading: "Cloud Optimization",
       icon: CloudOptimization,
       items: [
         "Cloud Cost Management",
@@ -44,7 +44,7 @@ export const CloudSolutionsData = {
       ],
     },
     {
-      heading: "DevOps & Continuous Delivery",
+      heading: "DevOps Services",
       icon: DevOps,
       items: [
         "CI/CD Pipeline Integration",
@@ -55,23 +55,23 @@ export const CloudSolutionsData = {
       ],
     },
     {
-      heading: "Cloud Infrastructure Management",
+      heading: "Cloud Management",
       icon: CloudInfrastructure,
       items: [
         "Managed Cloud Services",
         "Cloud Network Architecture",
         "Load Balancing & Scalability",
-        "Backup & Disaster Recovery Solutions",
+        "Backup & Disaster Recovery",
         "Cloud Resource Monitoring & Alerts",
       ],
     },
     {
-      heading: "Hybrid & Multi-Cloud Solutions",
+      heading: "Hybrid & Multi-Cloud",
       icon: HybridCloud,
       items: [
         "Hybrid Cloud Architecture",
-        "Multi-Cloud Management Solutions",
-        "Cloud Interoperability Strategies",
+        "Multi-Cloud Management",
+        "Cloud Interoperability",
         "Cloud Integration Services",
         "Private & Public Cloud Solutions",
       ],

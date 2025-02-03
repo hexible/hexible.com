@@ -13,7 +13,7 @@ export const ServiceCard = ({ data, ...props }: Props) => {
     >
       <div className="flex flex-col items-center">
         <data.icon className="mb-4 w-24 h-24" />
-        <p className="mb-4 font-bold text-center text-lg">{data.heading}</p>
+        <p className="mb-4 font-bold text-center text-xl">{data.heading}</p>
         <div className="flex flex-col gap-2 w-full">
           {data.items.map((item) => (
             <div key={item} className="flex items-center">

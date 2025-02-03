@@ -48,8 +48,8 @@ export const ServicesData: {
       extantLink: "/cloud-solutions",
     },
     {
-      heading1: "BI and",
-      heading2: "Data Analytics",
+      heading1: "BI and Data ",
+      heading2: "Analytics",
       Element: DataAnalytics,
       extantLink: "/bi-data-analytics",
     },

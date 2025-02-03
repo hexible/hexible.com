@@ -11,7 +11,7 @@ export const BIDataAnalyticsData = {
     "Utilize Business Intelligence and Data Analytics to uncover valuable insights, enhance operational performance, and empower data-driven decision-making. Our solutions provide real-time analytics, predictive insights, and comprehensive reporting to help your business make informed choices, improve efficiency, and stay competitive in a data-driven world.",
   sections: [
     {
-      heading: "Business Intelligence & Reporting",
+      heading: "BI & Reporting",
       icon: DashboardIcon,
       items: [
         "Interactive Dashboards",
@@ -22,7 +22,7 @@ export const BIDataAnalyticsData = {
       ],
     },
     {
-      heading: "Predictive & Prescriptive Analytics",
+      heading: "Predictive Analytics",
       icon: PieChart,
       items: [
         "Predictive Modeling",
@@ -33,7 +33,7 @@ export const BIDataAnalyticsData = {
       ],
     },
     {
-      heading: "Big Data Processing & Analytics",
+      heading: "Big Data Analytics",
       icon: DataMining,
       items: [
         "Data Warehousing & ETL",
@@ -44,10 +44,10 @@ export const BIDataAnalyticsData = {
       ],
     },
     {
-      heading: "Real-Time & Streaming Analytics",
+      heading: "Real-Time Analytics",
       icon: RealtimeAnalytics,
       items: [
-        "Real-Time Data Monitoring",
+        "Real-Time Monitoring",
         "Event-Driven Systems",
         "IoT Data Processing",
         "Instant Anomaly Detection",
@@ -55,7 +55,7 @@ export const BIDataAnalyticsData = {
       ],
     },
     {
-      heading: "Data Security & Compliance",
+      heading: "Data Security",
       icon: SecurityAnalytics,
       items: [
         "Data Governance",
@@ -66,7 +66,7 @@ export const BIDataAnalyticsData = {
       ],
     },
     {
-      heading: "AI-Driven Decision Support",
+      heading: "AI Decision Support",
       icon: DecisionSupport,
       items: [
         "AI Business Insights",

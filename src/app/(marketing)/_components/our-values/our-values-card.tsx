@@ -14,7 +14,7 @@ export const OurValuesCard = ({ item, ...props }: Props) => {
         <div className="flex flex-col flex-1 justify-between">
           <div className="flex flex-col justify-center items-center">
             <item.icon className="w-16 h-16" />
-            <p className="font-bold">{item.heading}</p>
+            <p className="p-1 font-semibold text-xl">{item.heading}</p>
           </div>
         </div>
       </div>

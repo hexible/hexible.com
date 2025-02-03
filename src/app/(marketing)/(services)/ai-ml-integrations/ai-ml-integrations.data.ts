@@ -11,7 +11,7 @@ export const AIMLIntegrationsData = {
     "Leverage the power of AI and Machine Learning with our cutting-edge solutions that drive automation, boost decision-making, and optimize business performance. Our tailored AI-driven strategies help streamline operations, predict trends, and deliver actionable insights, allowing you to stay ahead in an increasingly competitive market.",
   sections: [
     {
-      heading: "AI-Powered Automation",
+      heading: "AI Automation",
       icon: Robot,
       items: [
         "AI Chatbots & Virtual Assistants",
@@ -22,7 +22,7 @@ export const AIMLIntegrationsData = {
       ],
     },
     {
-      heading: "Predictive Analytics & Data Science",
+      heading: "Predictive Analytics",
       icon: PieChart,
       items: [
         "Predictive Modeling",
@@ -33,7 +33,7 @@ export const AIMLIntegrationsData = {
       ],
     },
     {
-      heading: "Computer Vision & NLP",
+      heading: "Vision & NLP",
       icon: ComputerVision,
       items: [
         "Facial Recognition & Object Detection",
@@ -44,7 +44,7 @@ export const AIMLIntegrationsData = {
       ],
     },
     {
-      heading: "Edge AI & IoT Intelligence",
+      heading: "Edge AI & IoT",
       icon: EdgeAI,
       items: [
         "AI on Edge Devices",
@@ -55,7 +55,7 @@ export const AIMLIntegrationsData = {
       ],
     },
     {
-      heading: "AI for Cybersecurity",
+      heading: "AI Security",
       icon: SecurityAI,
       items: [
         "AI-Powered Threat Detection",
@@ -66,7 +66,7 @@ export const AIMLIntegrationsData = {
       ],
     },
     {
-      heading: "AI-Driven Business Intelligence",
+      heading: "AI for Business",
       icon: BusinessIntelligence,
       items: [
         "AI-Powered Data Visualization",
