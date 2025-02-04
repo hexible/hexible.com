@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { CaseStudies } from "./_components/case-studies/page";
 import { ClientList } from "./_components/clients/client-list";
 import { ContactUs } from "./_components/contact-us/page";
 import { Hero } from "./_components/hero/hero";
@@ -25,7 +24,7 @@ export default function Home() {
       <Service />
       <WhyChooseUs />
       <TechnicalExpertise />
-      <CaseStudies />
+      {/* <CaseStudies /> */}
       <WorkingProcess />
       <OurValues />
       <Team />

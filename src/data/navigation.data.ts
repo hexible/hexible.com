@@ -33,18 +33,18 @@ export const HeaderNavigationData = [
       },
     ],
   },
-  {
-    label: "Case Studies",
-    link: "/case-studies",
-  },
+  // {
+  //   label: "Case Studies",
+  //   link: "/case-studies",
+  // },
   {
     label: "Pricing",
     link: "/pricing",
   },
-  {
-    label: "Blogs",
-    link: "/blogs",
-  },
+  // {
+  //   label: "Blogs",
+  //   link: "/blogs",
+  // },
   {
     label: "About Us",
     link: "/about-us",
