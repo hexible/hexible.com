@@ -11,7 +11,7 @@ export const OurValues = ({ ...props }: React.ComponentProps<"div">) => {
         description2={OurValuesData.description2}
       />
 
-      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-main-black p-8 rounded-3xl">
+      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {OurValuesData.items.map((item) => (
           <OurValuesCard item={item} key={item.heading} />
         ))}
