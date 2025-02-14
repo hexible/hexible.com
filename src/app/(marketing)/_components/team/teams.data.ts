@@ -12,7 +12,7 @@ export const TeamsData = {
       linkedinUrl: "#",
     },
     {
-      name: "Gaurav J.",
+      name: "Deepak J.",
       image: "",
       position: "CTO and Co-Founder",
       review:
