@@ -4,11 +4,11 @@ export const TeamsData = {
   description2: "successful software development projects",
   items: [
     {
-      name: "Deepak J.",
+      name: "Guarav J.",
       image: "",
       position: "CEO and Co-Founder",
       review:
-        "10+ years of experience in software development and technology leadership. Expertise in building scalable applications and business strategy.",
+        "15+ years of experience in software development and technology leadership. Expertise in building scalable applications and business strategy.",
       linkedinUrl: "#",
     },
     {
@@ -16,7 +16,7 @@ export const TeamsData = {
       image: "",
       position: "CTO and Co-Founder",
       review:
-        "15+ years of experience in software architecture and engineering. Specializes in cloud computing, DevOps, and full-stack development.",
+        "10+ years of experience in software architecture and engineering. Specializes in cloud computing, DevOps, and full-stack development.",
       linkedinUrl: "#",
     },
     {
