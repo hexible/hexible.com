@@ -7,11 +7,11 @@ import Link from "next/link";
 export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
   return (
     <main
-      className="justify-between items-center grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-12 h-full"
+      className="justify-between items-center grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-16 h-full"
       {...rest}
     >
       <div className="order-2 md:order-1">
-        <h1 className="font-extrabold text-4xl md:text-5xl leading-tight">
+        <h1 className="font-extrabold text-3xl md:text-4xl leading-tight">
           {AppData.taglinePart1}, <br /> {AppData.taglinePart2}
         </h1>
         <h2 className="my-4">{AppData.longDescription}</h2>
