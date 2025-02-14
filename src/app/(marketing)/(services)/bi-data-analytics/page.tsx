@@ -2,6 +2,7 @@ import PageHeader from "@/components/common/page-header";
 import { Metadata } from "next";
 import { ServiceCard } from "../_components/service-card";
 import { BIDataAnalyticsData } from "./bi-data-analytics.data";
+import { ProposalBanner } from "../../_components/services/proposal-banner";
 
 export const dynamic = "force-static";
 
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function BIAndDataAnalytics() {
   return (
-    <div className="*:container space-y-20">
+    <div className="space-y-20 *:container">
       <PageHeader
         title={BIDataAnalyticsData.title}
         description={BIDataAnalyticsData.description}
@@ -21,6 +22,9 @@ export default function BIAndDataAnalytics() {
         {BIDataAnalyticsData.sections.map((data) => (
           <ServiceCard key={data.heading} data={data} />
         ))}
+      </div>
+      <div>
+        <ProposalBanner />
       </div>
     </div>
   );

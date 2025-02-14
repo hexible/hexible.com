@@ -2,6 +2,7 @@ import PageHeader from "@/components/common/page-header";
 import { Metadata } from "next";
 import { ServiceCard } from "../_components/service-card";
 import { CloudSolutionsData } from "./cloud-solutions.data";
+import { ProposalBanner } from "../../_components/services/proposal-banner";
 
 export const dynamic = "force-static";
 
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function CloudSolutions() {
   return (
-    <div className="*:container space-y-20">
+    <div className="space-y-20 *:container">
       <PageHeader
         title={CloudSolutionsData.title}
         description={CloudSolutionsData.description}
@@ -21,6 +22,9 @@ export default function CloudSolutions() {
         {CloudSolutionsData.sections.map((data) => (
           <ServiceCard key={data.heading} data={data} />
         ))}
+      </div>
+      <div>
+        <ProposalBanner />
       </div>
     </div>
   );

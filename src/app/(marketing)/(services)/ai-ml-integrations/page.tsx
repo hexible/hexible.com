@@ -2,6 +2,7 @@ import PageHeader from "@/components/common/page-header";
 import { Metadata } from "next";
 import { AIMLIntegrationsData } from "./ai-ml-integrations.data";
 import { ServiceCard } from "../_components/service-card";
+import { ProposalBanner } from "../../_components/services/proposal-banner";
 
 export const dynamic = "force-static";
 
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function AIMLIntegrations() {
   return (
-    <div className="*:container space-y-20">
+    <div className="space-y-20 *:container">
       <PageHeader
         title={AIMLIntegrationsData.title}
         description={AIMLIntegrationsData.description}
@@ -21,6 +22,9 @@ export default function AIMLIntegrations() {
         {AIMLIntegrationsData.sections.map((data) => (
           <ServiceCard key={data.heading} data={data} />
         ))}
+      </div>
+      <div>
+        <ProposalBanner />
       </div>
     </div>
   );
