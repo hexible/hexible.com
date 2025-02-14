@@ -13,8 +13,8 @@ export const OurValuesCard = ({ item, ...props }: Props) => {
       <div className="flex items-center gap-2">
         <div className="flex flex-col flex-1 justify-between">
           <div className="flex flex-col justify-center items-center">
-            <item.icon className="w-16 h-16" />
-            <p className="p-1 font-semibold text-lg">{item.heading}</p>
+            <item.icon className="w-12 h-12" />
+            <p>{item.heading}</p>
           </div>
         </div>
       </div>

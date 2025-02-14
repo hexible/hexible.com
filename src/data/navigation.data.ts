@@ -72,6 +72,10 @@ export const LegalFooterNavigationData = [
 
 export const CompanyFooterNavigationData = [
   {
+    label: "Contact Us",
+    link: "/contact-us",
+  },
+  {
     label: "About Us",
     link: "/about-us",
   },
