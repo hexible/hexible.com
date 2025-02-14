@@ -15,7 +15,7 @@ export const Header = ({
     <nav
       {...props}
       className={cn(
-        "flex items-center justify-between py-8 container",
+        "flex items-center justify-between py-8 container sticky top-0 bg-opacity-98 bg-white z-50",
         className
       )}
     >
@@ -25,7 +25,7 @@ export const Header = ({
           <span className="font-medium text-2xl">{AppData.name}</span>
         </div>
       </Link>
-      <LargeDeviceNav className="lg:flex hidden" />
+      <LargeDeviceNav className="hidden lg:flex" />
       <MobileNav className="lg:hidden" />
     </nav>
   );
