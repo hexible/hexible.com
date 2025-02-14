@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 
 import Logo from "@/assets/common/logo.svg";
 import { cn } from "@/utils";
@@ -11,11 +13,25 @@ export const Header = ({
   className,
   ...props
 }: React.ComponentProps<"nav">) => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <nav
       {...props}
       className={cn(
         "flex items-center justify-between py-5 container sticky top-0 bg-opacity-98 bg-white z-50",
+        isScrolled ? "border-b border-main-gray" : "",
         className
       )}
     >
