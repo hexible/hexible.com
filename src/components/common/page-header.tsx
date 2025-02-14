@@ -20,7 +20,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({
       )}
       {...props}
     >
-      <h1 className="mx-auto px-2 rounded-lg w-min md:w-max font-bold text-4xl text-main-black">
+      <h1 className="mx-auto px-2 rounded-lg w-min md:w-max font-bold text-main-black text-3xl md:text-4xl">
         {title}
       </h1>
       <p className="my-8">{description}</p>

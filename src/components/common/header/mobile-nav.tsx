@@ -5,9 +5,10 @@ import * as Dialog from "@radix-ui/react-dialog";
 import * as Accordion from "@radix-ui/react-accordion";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import { Button } from "@/components/ui";
+import { buttonVariants } from "@/components/ui";
 import { HeaderNavigationData } from "@/data/navigation.data";
 import { AppData } from "@/data/app.data";
+import { cn } from "@/utils";
 
 export const MobileNav = (props: React.ComponentProps<"div">) => {
   return (
@@ -104,7 +105,12 @@ export const MobileNav = (props: React.ComponentProps<"div">) => {
           {/* Request a Quote Button */}
           <div className="mt-6">
             <Dialog.Close asChild>
-              <Button>Request a quote</Button>
+              <Link
+                href={AppData.requestQuote.link}
+                className={cn(buttonVariants())}
+              >
+                {AppData.requestQuote.title}
+              </Link>
             </Dialog.Close>
           </div>
         </Dialog.Content>

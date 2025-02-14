@@ -9,11 +9,11 @@ export const ContactLinksData = [
   },
   {
     name: "X",
-    url: "https://www.x.com/hexible",
+    url: "https://www.x.com/hexiblesoftware",
   },
   {
     name: "Instagram",
-    url: "https://www.instagram.com/hexible",
+    url: "https://www.instagram.com/hexiblesoftware",
   },
 
   {

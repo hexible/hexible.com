@@ -49,6 +49,10 @@ export const HeaderNavigationData = [
     label: "About Us",
     link: "/about-us",
   },
+  {
+    label: "Contact Us",
+    link: "/contact-us",
+  },
 ];
 
 export const LegalFooterNavigationData = [
@@ -68,7 +72,7 @@ export const LegalFooterNavigationData = [
 
 export const CompanyFooterNavigationData = [
   {
-    label: "About us",
+    label: "About Us",
     link: "/about-us",
   },
   {

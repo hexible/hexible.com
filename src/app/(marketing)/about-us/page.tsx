@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function AboutUs() {
   return (
-    <div className="*:container space-y-20">
+    <div className="space-y-20 *:container">
       <PageHeader
         title={AboutUsData.title}
         description={AboutUsData.description}

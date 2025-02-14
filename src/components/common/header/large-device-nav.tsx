@@ -1,11 +1,12 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { Button } from "@/components/ui";
+import { buttonVariants } from "@/components/ui";
 import { HeaderNavigationData } from "@/data";
 import { cn } from "@/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { AppData } from "@/data/app.data";
 
 export const LargeDeviceNav = ({
   className,
@@ -84,7 +85,12 @@ export const LargeDeviceNav = ({
           );
         })}
       </div>
-      <Button className="px-7">Request a quote</Button>
+      <Link
+        href={AppData.requestQuote.link}
+        className={cn(buttonVariants(), "px-7")}
+      >
+        {AppData.requestQuote.title}
+      </Link>
     </div>
   );
 };

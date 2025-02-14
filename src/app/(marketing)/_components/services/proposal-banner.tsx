@@ -1,5 +1,8 @@
 import BusinessDeal from "@/assets/Illustration/business-deal.svg";
-import { Button } from "@/components";
+import { buttonVariants } from "@/components";
+import { AppData } from "@/data/app.data";
+import { cn } from "@/utils";
+import Link from "next/link";
 
 export const ProposalBanner = ({ ...props }: React.ComponentProps<"div">) => {
   return (
@@ -15,11 +18,16 @@ export const ProposalBanner = ({ ...props }: React.ComponentProps<"div">) => {
           operations, and drive your business growth through innovative
           technology solutions.
         </p>
-        <Button className="my-4">Get your free proposal</Button>
+        <Link
+          href={AppData.getYourProposal.link}
+          className={cn(buttonVariants(), "my-4")}
+        >
+          {AppData.getYourProposal.title}
+        </Link>
       </div>
 
-      <div className="md:flex justify-center items-center hidden">
-        <BusinessDeal className="relative scale-125 size-60" />
+      <div className="hidden md:flex justify-center items-center">
+        <BusinessDeal className="relative size-60 scale-125" />
       </div>
     </div>
   );
