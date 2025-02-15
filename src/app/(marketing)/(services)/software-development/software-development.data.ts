@@ -5,8 +5,8 @@ import Backend from "@/assets/icons/backend.svg";
 import CMS from "@/assets/icons/CMS.svg";
 import APIIntegration from "@/assets/icons/API.svg";
 
-export const WebMobileDevelopmentData = {
-  title: "Web & Mobile Development",
+export const SoftwareDevelopmentData = {
+  title: "Software Development",
   description:
     "Develop high-performance web and mobile applications using cutting-edge technologies that ensure seamless functionality, exceptional speed, and an engaging user experience. Our solutions are designed to be scalable, secure, and optimized for modern business needs, providing intuitive interfaces and robust architectures that drive success in the digital landscape.",
   sections: [

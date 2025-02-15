@@ -8,8 +8,8 @@ export const HeaderNavigationData = [
     link: "#",
     children: [
       {
-        label: "Web/Mobile Development",
-        link: "/web-mobile-development",
+        label: "Software Development",
+        link: "/software-development",
       },
       {
         label: "UI/UX Design",

@@ -15,7 +15,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({
   return (
     <div
       className={cn(
-        "mx-auto my-8 lg:my-10 mb-3 max-w-screen-lg text-center",
+        "mx-auto my-8 lg:my-20 mb-3 max-w-screen-lg text-center",
         className
       )}
       {...props}

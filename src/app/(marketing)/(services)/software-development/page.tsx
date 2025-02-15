@@ -1,25 +1,25 @@
 import PageHeader from "@/components/common/page-header";
 import { Metadata } from "next";
 import { ServiceCard } from "../_components/service-card";
-import { WebMobileDevelopmentData } from "./web-mobile-development.data";
+import { SoftwareDevelopmentData } from "./software-development.data";
 import { ProposalBanner } from "../../_components/services/proposal-banner";
 
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: WebMobileDevelopmentData.title,
-  description: WebMobileDevelopmentData.description,
+  title: SoftwareDevelopmentData.title,
+  description: SoftwareDevelopmentData.description,
 };
 
-export default function WebMobileDevelopments() {
+export default function SoftwareDevelopments() {
   return (
     <div className="space-y-20 *:container">
       <PageHeader
-        title={WebMobileDevelopmentData.title}
-        description={WebMobileDevelopmentData.description}
+        title={SoftwareDevelopmentData.title}
+        description={SoftwareDevelopmentData.description}
       />
       <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {WebMobileDevelopmentData.sections.map((data) => (
+        {SoftwareDevelopmentData.sections.map((data) => (
           <ServiceCard key={data.heading} data={data} />
         ))}
       </div>
