@@ -20,7 +20,7 @@ export default function AboutUs() {
         description={AboutUsData.description}
       />
       <OurValues />
-      <div className="gap-4 grid grid-cols-1 md:grid-cols-1">
+      <div className="gap-8 grid grid-cols-1 md:grid-cols-1">
         {AboutUsData.sections.map((data) => (
           <AboutUsCard key={data.heading} item={data} />
         ))}
