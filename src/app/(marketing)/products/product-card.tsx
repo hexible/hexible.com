@@ -10,7 +10,7 @@ export const ProductsCard = ({ item, ...props }: Props) => {
   return (
     <div
       {...props}
-      className="gap-6 bg-main-gray shadow-lg px-6 md:px-10 py-12 border border-main-black/70 border-b-4 border-b-main-black rounded-3xl"
+      className="gap-6 bg-main-gray px-6 md:px-10 py-12 rounded-3xl"
     >
       {/* Content Section */}
       <div className="flex flex-col justify-start items-start gap-4 w-full">
@@ -37,7 +37,7 @@ export const ProductsCard = ({ item, ...props }: Props) => {
           <div className="gap-2 grid">
             {item.highlights.map((highlight, idx) => (
               <div key={item.title + idx} className="flex items-start">
-                <Tick className="flex-shrink-0 mt-1 w-4 h-4" />
+                <Tick className="flex-shrink-0 mt-1 w-5 h-5" />
                 <p className="ml-2 text-main-black">{highlight}</p>
               </div>
             ))}

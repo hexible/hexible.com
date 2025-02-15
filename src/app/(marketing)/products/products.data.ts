@@ -43,7 +43,7 @@ export const ProductsData = {
         "Google Datastore",
         "Angular 19",
         "Redis",
-        "Google CLoud Platform",
+        "Google Cloud Platform",
       ],
       highlights: [
         "Implemented calendarization with customizable recurrence options for events and tasks, allowing users to schedule repeating activities effortlessly.",

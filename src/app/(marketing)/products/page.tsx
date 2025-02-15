@@ -17,7 +17,7 @@ export default function ClientProducts() {
         title={ProductsData.title}
         description={ProductsData.description}
       />
-      <div className="gap-4 grid grid-cols-1">
+      <div className="gap-8 grid grid-cols-1">
         {ProductsData.items.map((data) => (
           <ProductsCard key={data.title} item={data} />
         ))}

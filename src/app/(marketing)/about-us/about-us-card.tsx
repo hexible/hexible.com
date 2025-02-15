@@ -8,7 +8,7 @@ export const AboutUsCard = ({ item, ...props }: Props) => {
   return (
     <div
       {...props}
-      className="grid grid-cols-1 md:grid-cols-5 shadow-lg px-6 md:px-10 py-12 border border-main-black/70 border-b-4 border-b-main-black rounded-3xl"
+      className="grid grid-cols-1 md:grid-cols-5 bg-main-gray px-6 md:px-10 py-12 rounded-3xl"
     >
       <div
         className={`flex justify-center items-center col-span-2 mb-8 md:mb-0`}
