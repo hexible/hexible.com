@@ -3,6 +3,7 @@ import OurWork from "@/assets/icons/avatar-working.svg";
 import OurValues from "@/assets/icons/handshake.svg";
 import OurAchievements from "@/assets/icons/team-award.svg";
 import OurVision from "@/assets/icons/target.svg";
+import OurApproach from "@/assets/icons/agile.svg";
 
 export const AboutUsData = {
   title: "About Us",
@@ -46,6 +47,12 @@ export const AboutUsData = {
       icon: OurVision,
       description:
         "Our vision is to become a leading IT consultancy and solution provider, known for our expertise in high-performance application development and AI solutions. We aim to expand our capabilities and grow our client base by fostering long-term relationships and consistently delivering value. Our ultimate goal is to become the trusted partner for businesses seeking transformative digital solutions.",
+    },
+    {
+      heading: "Our Approach",
+      icon: OurApproach,
+      description:
+        "At Hexible, we follow a structured and agile approach to software development, ensuring efficiency, transparency, and flexibility. From in-depth requirement analysis to iterative development and rigorous testing, we prioritize quality and user satisfaction. Our methodology combines industry best practices with cutting-edge technology to deliver reliable, scalable, and future-proof solutions tailored to our clients' needs.",
     },
   ],
 };
