@@ -1,5 +1,6 @@
 export const AppData = {
   name: "Hexible",
+  publicUrl: "https://hexible.com",
   taglinePart1: "Your Vision",
   taglinePart2: "Perfectly Engineered",
   longDescription:

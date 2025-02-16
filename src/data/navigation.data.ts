@@ -1,4 +1,10 @@
-export const HeaderNavigationData = [
+export interface NavigationItem {
+  label: string;
+  link: string;
+  children?: NavigationItem[];
+}
+
+export const HeaderNavigationData: NavigationItem[] = [
   {
     label: "Home",
     link: "/",
@@ -33,10 +39,6 @@ export const HeaderNavigationData = [
       },
     ],
   },
-  // {
-  //   label: "Case Studies",
-  //   link: "/case-studies",
-  // },
   {
     label: "Pricing",
     link: "/pricing",
