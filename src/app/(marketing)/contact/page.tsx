@@ -14,7 +14,7 @@ export default function ContactPage() {
   const { title, description } = ContactData;
 
   return (
-    <div className="space-y-20 container">
+    <div className="space-y-16 container">
       <PageHeader title={title} description={description} />
       <Contact showHeader={false} />
     </div>

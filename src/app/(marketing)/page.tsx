@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="space-y-20 *:container">
+    <div className="space-y-16 *:container">
       <Hero />
       <ClientList />
       <Service />

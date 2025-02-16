@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function CloudSolutions() {
   return (
-    <div className="space-y-20 *:container">
+    <div className="space-y-16 *:container">
       <PageHeader
         title={CloudSolutionsData.title}
         description={CloudSolutionsData.description}

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function Pricing() {
   return (
-    <div className="*:container space-y-20">
+    <div className="space-y-16 *:container">
       <PageHeader
         title={PricingData.title}
         description={PricingData.description}

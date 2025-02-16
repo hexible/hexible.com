@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function BIAndDataAnalytics() {
   return (
-    <div className="space-y-20 *:container">
+    <div className="space-y-16 *:container">
       <PageHeader
         title={BIDataAnalyticsData.title}
         description={BIDataAnalyticsData.description}

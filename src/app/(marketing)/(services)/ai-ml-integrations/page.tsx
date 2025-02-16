@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function AIMLIntegrations() {
   return (
-    <div className="space-y-20 *:container">
+    <div className="space-y-16 *:container">
       <PageHeader
         title={AIMLIntegrationsData.title}
         description={AIMLIntegrationsData.description}

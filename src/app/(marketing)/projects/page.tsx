@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function ClientProjects() {
   return (
-    <div className="space-y-20 container">
+    <div className="space-y-16 container">
       <PageHeader
         title={ProjectsData.title}
         description={ProjectsData.description}
