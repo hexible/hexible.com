@@ -1,5 +1,5 @@
-export const ProductsData = {
-  title: "Products we have delivered",
+export const ProjectsData = {
+  title: "Projects We Have Delivered",
   description:
     "Explore the diverse range of products we have developed for our clients. Discover how we have helped businesses achieve their goals by delivering high-quality software solutions tailored to their unique needs. From quick development support to dedicated teams, our portfolio showcases our expertise and commitment to excellence.",
   items: [
@@ -24,7 +24,7 @@ export const ProductsData = {
         "PlanPlusOnline is a legacy CRM designed to enhance productivity with essential organizational tools. It offers contact management, task tracking, and calendar integration, helping businesses streamline their workflows. With valuable planning features and a proven productivity system, it enables users to build a culture of efficiency and stay organized.",
       tech: ["Java", "Javascript", "MySQL", "Angular 19", "AWS", "Docker"],
       highlights: [
-        "Consolidated 8 application deployments from multiple VMs to a single Dockerized VM, significantly reducing infrastructure complexity and cutting costs from $8,000 to $1,000 per month.",
+        "Consolidated 8 underutilized VMs, each running a single application instance, into a single VM using Docker with 8 containers. This optimization significantly reduced infrastructure complexity and slashed costs from $8,000 to $2,000 per month.",
         "Upgraded MySQL from version 5 to 8, improving database performance, security, and compatibility with modern applications.",
         "Merged 4 RDS instance databases into a single RDS with multiple schemas, optimizing resource utilization and further reducing operational costs.",
         "Archived 15 years of historical data, reducing database storage by multiple terabytes, enhancing query performance and backup efficiency.",

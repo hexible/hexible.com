@@ -13,7 +13,7 @@ export const AboutUsCard = ({ item, ...props }: Props) => {
       <div
         className={`flex justify-center items-center col-span-2 mb-8 md:mb-0`}
       >
-        <item.icon className="w-64 h-64" />
+        <item.icon className="w-32 md:w-48 h-32 md:h-48" />
       </div>
       <div className="flex flex-col justify-center items-center gap-4 col-span-3">
         <div className="flex flex-col justify-between space-y-5 w-full">

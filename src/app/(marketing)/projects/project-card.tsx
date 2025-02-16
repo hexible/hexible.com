@@ -1,12 +1,13 @@
 import Link from "next/link";
-import { ProductsData } from "./products.data";
+import { ProjectsData } from "./projects.data";
 import Tick from "@/assets/icons/tick.svg";
+import { cn } from "@/utils";
 
 interface Props extends React.ComponentProps<"div"> {
-  item: (typeof ProductsData.items)[number];
+  item: (typeof ProjectsData.items)[number];
 }
 
-export const ProductsCard = ({ item, ...props }: Props) => {
+export const ProjectCard = ({ item, ...props }: Props) => {
   return (
     <div
       {...props}
@@ -14,15 +15,17 @@ export const ProductsCard = ({ item, ...props }: Props) => {
     >
       {/* Content Section */}
       <div className="flex flex-col justify-start items-start gap-4 w-full">
-        {/* Title */}
-        <Link
-          href={item.website}
-          className="font-bold hover:text-main-green text-2xl md:text-3xl text-left underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {item.title}
-        </Link>
+        <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-2 md:mb-2 w-full">
+          {/* Title */}
+          <span className="font-bold text-2xl md:text-3xl">{item.title}</span>
+
+          {/* Website Link Button */}
+          <Link href={item.website} target="_blank" rel="noopener noreferrer">
+            <span className={cn("text-main-black text-sm underline")}>
+              Visit Website
+            </span>
+          </Link>
+        </div>
 
         {/* Description */}
         <p className="text-main-black text-left leading-relaxed">
@@ -51,7 +54,7 @@ export const ProductsCard = ({ item, ...props }: Props) => {
             {item.tech.map((tech, idx) => (
               <span
                 key={tech + idx}
-                className="bg-main-black px-3 py-1 rounded-lg text-white text-sm"
+                className="px-3 py-1 border border-main-black rounded-lg text-sm"
               >
                 {tech}
               </span>
