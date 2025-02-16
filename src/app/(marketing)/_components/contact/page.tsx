@@ -3,20 +3,20 @@ import { SectionsHeader } from "@/components/common";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { ContactForm } from "./contact-form";
-import { ContactUsData } from "./contact-us.data";
+import { ContactData } from "./contact.data";
 
 interface ContactUsProps extends React.ComponentProps<"div"> {
   showHeader?: boolean;
 }
 
-export const ContactUs = ({ showHeader = true, ...props }: ContactUsProps) => {
+export const Contact = ({ showHeader = true, ...props }: ContactUsProps) => {
   return (
     <div {...props}>
       {showHeader && (
         <SectionsHeader
-          heading={ContactUsData.heading}
-          description1={ContactUsData.description1}
-          description2={ContactUsData.description2}
+          heading={ContactData.heading}
+          description1={ContactData.description1}
+          description2={ContactData.description2}
         />
       )}
       <div className="relative bg-main-gray my-4 rounded-3xl min-h-60 overflow-hidden">

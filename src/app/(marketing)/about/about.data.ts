@@ -5,7 +5,7 @@ import OurAchievements from "@/assets/icons/team-award.svg";
 import OurVision from "@/assets/icons/target.svg";
 import OurApproach from "@/assets/icons/agile.svg";
 
-export const AboutUsData = {
+export const AboutData = {
   title: "About Us",
   description:
     "At Hexible, we are committed to delivering excellence through an agile, strategic, and innovative approach. Our mission is to create sustainable value for our clients and partners. With a dynamic, skilled team, we thrive on solving complex challenges and delivering high-impact solutions.",

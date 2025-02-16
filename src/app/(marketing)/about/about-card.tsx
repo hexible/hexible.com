@@ -1,10 +1,10 @@
-import { AboutUsData } from "./about-us.data";
+import { AboutData } from "./about.data";
 
 interface Props extends React.ComponentProps<"div"> {
-  item: (typeof AboutUsData.sections)[number];
+  item: (typeof AboutData.sections)[number];
 }
 
-export const AboutUsCard = ({ item, ...props }: Props) => {
+export const AboutCard = ({ item, ...props }: Props) => {
   return (
     <div
       {...props}

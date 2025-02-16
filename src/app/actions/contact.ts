@@ -5,7 +5,7 @@ import { AppData } from "@/data/app.data";
 import {
   contactFormSchema,
   ContactSchemaType,
-} from "../(marketing)/_components/contact-us/contact-schema";
+} from "../(marketing)/_components/contact/contact-schema";
 
 export async function sendContactEmail(formData: ContactSchemaType) {
   try {

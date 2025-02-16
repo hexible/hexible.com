@@ -48,12 +48,12 @@ export const HeaderNavigationData: NavigationItem[] = [
   //   link: "/blogs",
   // },
   {
-    label: "About Us",
-    link: "/about-us",
+    label: "About",
+    link: "/about",
   },
   {
-    label: "Contact Us",
-    link: "/contact-us",
+    label: "Contact",
+    link: "/contact",
   },
 ];
 
@@ -74,12 +74,12 @@ export const LegalFooterNavigationData = [
 
 export const CompanyFooterNavigationData = [
   {
-    label: "Contact Us",
-    link: "/contact-us",
+    label: "Contact",
+    link: "/contact",
   },
   {
-    label: "About Us",
-    link: "/about-us",
+    label: "About",
+    link: "/about",
   },
   {
     label: "Pricing",

@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { ClientList } from "./_components/clients/client-list";
-import { ContactUs } from "./_components/contact-us/page";
+import { Contact } from "./_components/contact/page";
 import { Hero } from "./_components/hero/hero";
 import { Service } from "./_components/services/page";
 import { Team } from "./_components/team/page";
@@ -29,7 +29,7 @@ export default function Home() {
       <OurValues />
       <Team />
       <Testimonials />
-      <ContactUs showHeader={true} />
+      <Contact showHeader={true} />
     </div>
   );
 }
