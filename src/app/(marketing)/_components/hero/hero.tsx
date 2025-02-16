@@ -10,12 +10,14 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
       className="justify-between items-center grid grid-cols-1 lg:grid-cols-3 mt-16 md:mt-24 h-full"
       {...rest}
     >
-      <div className="order-2 md:order-1 lg:col-span-2">
-        <h1 className="font-extrabold text-3xl md:text-6xl leading-tight">
+      <div className="space-y-6 lg:col-span-2">
+        <h1 className="font-extrabold text-3xl md:text-6xl text-center lg:text-start leading-tight">
           {AppData.taglinePart1}, <br /> {AppData.taglinePart2}
         </h1>
-        <h2 className="my-4">{AppData.longDescription}</h2>
-        <div className="flex flex-wrap justify-start gap-4 mt-6">
+        <h2 className="my-4 md:text-lg text-center lg:text-start">
+          {AppData.longDescription}
+        </h2>
+        <div className="flex flex-wrap justify-center lg:justify-start gap-3 md:gap-4 mt-6">
           <Link
             href={AppData.requestQuote.link}
             className={cn(
@@ -36,8 +38,8 @@ export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {
         </div>
       </div>
 
-      <div className="hidden lg:block justify-center items-center order-1 md:order-2 lg:col-span-1">
-        <HeroImg className="w-full h-72" />
+      <div className="hidden lg:block justify-center items-center lg:col-span-1">
+        <HeroImg className="w-full h-80" />
       </div>
     </main>
   );

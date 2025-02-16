@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowUpRight } from "lucide-react";
 
 import { cn } from "@/utils";
 import { ServicesData } from "./services.data";
@@ -20,23 +19,16 @@ export const ServiceCard = ({ service, className, ...props }: Props) => {
     >
       <div className="flex flex-col justify-between">
         <h6 className={cn("text-xl font-semibold text-nowrap")}>
-          <span className={cn("p-1 rounded-xl")}>{service.heading1}</span>
+          <span>{service.heading1}</span>
           <br />
-          <span className={cn("p-1 rounded-xl")}>{service.heading2}</span>
+          <span>{service.heading2}</span>
         </h6>
 
         <Link
           href={service.extantLink || "/"}
-          className="flex items-center gap-x-1 mt-4"
+          className="flex items-center gap-x-1"
         >
-          <span
-            className={cn(
-              `flex items-center justify-center bg-main-black p-2 rounded-full`
-            )}
-          >
-            <ArrowUpRight className={cn("text-white")} />
-          </span>
-          <span className={cn("text-main-black underline")}>Learn More</span>
+          <span className={cn("text-main-black underline")}>Learn more</span>
         </Link>
       </div>
       <div className="flex justify-center items-center">
