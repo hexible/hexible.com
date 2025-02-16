@@ -30,7 +30,7 @@ export const Header = ({
     <nav
       {...props}
       className={cn(
-        "flex items-center justify-between py-5 container sticky top-0 bg-opacity-98 bg-white z-50",
+        "flex items-center justify-between py-5 container sticky top-0 bg-opacity-80 bg-white backdrop-blur-lg z-50",
         isScrolled ? "border-b border-main-gray" : "",
         className
       )}

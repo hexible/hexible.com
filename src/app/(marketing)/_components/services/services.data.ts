@@ -24,10 +24,10 @@ export const ServicesData: {
     "help businesses build innovative software solutions and achieve success",
   items: [
     {
-      heading1: "Web/Mobile",
+      heading1: "Software",
       heading2: "Development",
       Element: WebDevelopment,
-      extantLink: "/web-mobile-development",
+      extantLink: "/software-development",
     },
     {
       heading1: "UI/UX",
