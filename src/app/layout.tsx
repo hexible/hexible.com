@@ -11,6 +11,10 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: `${AppData.name}: ${AppData.taglinePart1}, ${AppData.taglinePart2}`,
   description: AppData.longDescription,
+  alternates: {
+    canonical: AppData.publicUrl,
+  },
+  keywords: AppData.keywords,
 };
 
 export default function RootLayout({
