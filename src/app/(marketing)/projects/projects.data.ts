@@ -54,5 +54,36 @@ export const ProjectsData = {
         "Implemented JWT-based authentication and authorization, enhancing security and access control for users.",
       ],
     },
+        {
+      title: "Mangalam Builders",
+      website: "https://www.manglamgroup.com/",
+      description:
+        "Project aims to ensure the consistent upkeep and operational efficiency of all facilities within the designated building(s). This project will encompass a comprehensive range of services focused on maintaining the building’s structural integrity, systems, and aesthetics. The goal is to provide a safe, comfortable, and functional environment for occupants, while optimizing the lifespan of the building's infrastructure.",
+      tech: ["Java", "Spring", "MySQL", "Angular 19", "AWS", "Docker"],
+      highlights: [
+        "Implement an automated billing solution that generates monthly bills for all maintenance-related services, including utilities (electricity, water, heating), repairs, and maintenance fees.",
+        "Upgraded MySQL from version 5 to 8, improving database performance, security, and compatibility with modern applications.",
+       
+        "Use data analytics to track monthly billing trends, consumption patterns, and outstanding payments.",
+        "Offer tenants customized billing options based on their specific usage or needs, such as tiered pricing for large units or discounts for long-term tenants.",
+        "Set up automated reminders for tenants about upcoming or overdue bills through email, SMS, or app notifications. ",
+        "Develop a secure, user-friendly online payment system where tenants or property owners can pay their monthly bills easily.",
+      ],
+    },
+     {
+      title: "Kundalini yoga",
+      website: "https://kundalini.yoga//",
+      description:
+        "This mobile app offers resources, classes, and information about Kundalini yoga practices. It focuses on holistic wellness, spiritual growth, and self-discovery, providing tools for personal transformation through meditation, breathwork, and physical postures.",
+      tech: ["Java", "Android/iOS Developement", "Angular 19", "AWS", "Docker"],
+      highlights: [
+        "Implemented an adaptive bitrate streaming (ABR), such as HLS (HTTP Live Streaming) or DASH (Dynamic Adaptive Streaming over HTTP).",
+        "Preloaded parts of the video (e.g., the first few seconds) to make it ready for playback as soon as the user presses play. ",
+       
+        "Used a CDN to host and deliver videos from servers closest to the user, minimizing latency and reducing load times for video content.",
+        "Display low-resolution thumbnails for video previews, which load faster than high-resolution previews. Once the video is selected, load the full resolution.",
+        "Implement smart buffering strategies that allow users to start watching the video as soon as possible, even if the whole video is not fully loaded. up automated reminders for tenants about upcoming or overdue bills through email, SMS, or app notifications. ",
+      ],
+    },
   ],
 };

@@ -44,10 +44,10 @@ export const AppData = {
   },
   requestQuote: {
     title: "Request a quote",
-    link: "/contact-us",
+    link: "/contact",
   },
   getYourProposal: {
     title: "Get your free proposal",
-    link: "/contact-us",
+    link: "/contact",
   },
 };
