@@ -1,10 +1,10 @@
-import { SectionsHeader } from "@/components/common";
+import { SectionsHeader } from "@/src/components/common";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "@/src/components/ui/accordion";
 import { WorkingProcessData } from "./working-process.data";
 
 export const WorkingProcess = ({ ...props }: React.ComponentProps<"div">) => {

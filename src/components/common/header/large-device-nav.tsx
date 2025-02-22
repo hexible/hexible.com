@@ -1,12 +1,12 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { buttonVariants } from "@/components/ui";
-import { HeaderNavigationData } from "@/data";
-import { cn } from "@/utils";
+import { buttonVariants } from "@/src/components/ui";
+import { HeaderNavigationData } from "@/src/data";
+import { cn } from "@/src/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { AppData } from "@/data/app.data";
+import { AppData } from "@/src/data/app.data";
 
 export const LargeDeviceNav = ({
   className,

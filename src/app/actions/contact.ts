@@ -1,7 +1,7 @@
 "use server";
 
 import { Resend } from "resend";
-import { AppData } from "@/data/app.data";
+import { AppData } from "@/src/data/app.data";
 import {
   contactFormSchema,
   ContactSchemaType,

@@ -1,7 +1,7 @@
-import HeroImg from "@/assets/Illustration/hero.svg";
-import { buttonVariants } from "@/components/ui";
-import { AppData } from "@/data/app.data";
-import { cn } from "@/utils";
+import HeroImg from "@/src/assets/Illustration/hero.svg";
+import { buttonVariants } from "@/src/components/ui";
+import { AppData } from "@/src/data/app.data";
+import { cn } from "@/src/utils";
 import Link from "next/link";
 
 export const Hero = ({ ...rest }: React.ComponentProps<"main">) => {

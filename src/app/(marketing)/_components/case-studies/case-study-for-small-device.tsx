@@ -3,7 +3,7 @@
 import { ArrowUpRight } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { cn } from "@/utils";
+import { cn } from "@/src/utils";
 import { CaseStudyData } from "./case-study.data";
 import Link from "next/link";
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ProjectsData } from "./projects.data";
-import Tick from "@/assets/icons/tick.svg";
-import { cn } from "@/utils";
+import Tick from "@/src/assets/icons/tick.svg";
+import { cn } from "@/src/utils";
 
 interface Props extends React.ComponentProps<"div"> {
   item: (typeof ProjectsData.items)[number];

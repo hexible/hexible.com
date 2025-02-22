@@ -1,4 +1,4 @@
-import PageHeader from "@/components/common/page-header";
+import PageHeader from "@/src/components/common/page-header";
 import { PrivacyPolicyData } from "./privacy-policy.data";
 import { Metadata } from "next";
 

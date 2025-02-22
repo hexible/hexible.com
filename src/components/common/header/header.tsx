@@ -2,12 +2,12 @@
 
 import React, { useEffect, useState } from "react";
 
-import Logo from "@/assets/common/logo.svg";
-import { cn } from "@/utils";
+import Logo from "@/src/assets/common/logo.svg";
+import { cn } from "@/src/utils";
 import { LargeDeviceNav } from "./large-device-nav";
 import { MobileNav } from "./mobile-nav";
 import Link from "next/link";
-import { AppData } from "@/data/app.data";
+import { AppData } from "@/src/data/app.data";
 
 export const Header = ({
   className,

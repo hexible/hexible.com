@@ -1,4 +1,4 @@
-import { SectionsHeader } from "@/components/common";
+import { SectionsHeader } from "@/src/components/common";
 import { TechnicalExpertiseData } from "./technical-expertise.data";
 import { TechCard } from "./tech-card";
 

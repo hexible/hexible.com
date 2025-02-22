@@ -1,5 +1,5 @@
-import { Button } from "@/components";
-import { SectionsHeader } from "@/components/common";
+import { Button } from "@/src/components";
+import { SectionsHeader } from "@/src/components/common";
 import { TeamCard } from "./team-card";
 import { TeamsData } from "./teams.data";
 

@@ -5,10 +5,10 @@ import * as Dialog from "@radix-ui/react-dialog";
 import * as Accordion from "@radix-ui/react-accordion";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import { buttonVariants } from "@/components/ui";
-import { HeaderNavigationData } from "@/data/navigation.data";
-import { AppData } from "@/data/app.data";
-import { cn } from "@/utils";
+import { buttonVariants } from "@/src/components/ui";
+import { HeaderNavigationData } from "@/src/data/navigation.data";
+import { AppData } from "@/src/data/app.data";
+import { cn } from "@/src/utils";
 
 export const MobileNav = (props: React.ComponentProps<"div">) => {
   return (

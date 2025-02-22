@@ -1,9 +1,9 @@
-import BugFixing from "@/assets/icons/bug-fixing.svg";
-import PerformanceTuning from "@/assets/icons/performance-tuning.svg";
-import SecurityUpdates from "@/assets/icons/security-updates.svg";
-import VersionUpgrades from "@/assets/icons/version-upgrades.svg";
-import TechnicalSupport from "@/assets/icons/technical-support.svg";
-import Monitoring from "@/assets/icons/monitoring.svg";
+import BugFixing from "@/src/assets/icons/bug-fixing.svg";
+import PerformanceTuning from "@/src/assets/icons/performance-tuning.svg";
+import SecurityUpdates from "@/src/assets/icons/security-updates.svg";
+import VersionUpgrades from "@/src/assets/icons/version-upgrades.svg";
+import TechnicalSupport from "@/src/assets/icons/technical-support.svg";
+import Monitoring from "@/src/assets/icons/monitoring.svg";
 
 export const SoftwareMaintenanceData = {
   title: "Software Maintenance",

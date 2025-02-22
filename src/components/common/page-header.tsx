@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "@/utils";
+import { cn } from "@/src/utils";
 
 interface PageHeaderProps extends React.ComponentProps<"div"> {
   title: string;

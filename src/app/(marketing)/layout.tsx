@@ -1,4 +1,4 @@
-import { Footer, Header } from "@/components/common";
+import { Footer, Header } from "@/src/components/common";
 
 type LayoutProps = {
   children: React.ReactNode;

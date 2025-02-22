@@ -1,4 +1,4 @@
-import { SectionsHeader } from "@/components/common";
+import { SectionsHeader } from "@/src/components/common";
 import { WhyChooseUsData } from "./why-choose-us.data";
 import { WhyChooseUsCard } from "./why-choose-us-card";
 

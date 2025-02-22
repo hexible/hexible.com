@@ -1,4 +1,4 @@
-import { cn } from "@/utils";
+import { cn } from "@/src/utils";
 
 interface Props extends React.ComponentProps<"div"> {
   heading: string;

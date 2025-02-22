@@ -1,4 +1,4 @@
-import { AppData } from "@/data/app.data";
+import { AppData } from "@/src/data/app.data";
 import type { MetadataRoute } from "next";
 
 // Ensure that AppData.publicUrl does not end with a trailing slash.

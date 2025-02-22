@@ -1,4 +1,4 @@
-import PageHeader from "@/components/common/page-header";
+import PageHeader from "@/src/components/common/page-header";
 import { Metadata } from "next";
 import { ServiceCard } from "../_components/service-card";
 import { BIDataAnalyticsData } from "./bi-data-analytics.data";

@@ -1,7 +1,7 @@
-import BusinessDeal from "@/assets/Illustration/business-deal.svg";
-import { buttonVariants } from "@/components";
-import { AppData } from "@/data/app.data";
-import { cn } from "@/utils";
+import BusinessDeal from "@/src/assets/Illustration/business-deal.svg";
+import { buttonVariants } from "@/src/components";
+import { AppData } from "@/src/data/app.data";
+import { cn } from "@/src/utils";
 import Link from "next/link";
 
 export const ProposalBanner = ({ ...props }: React.ComponentProps<"div">) => {

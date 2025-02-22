@@ -1,9 +1,9 @@
-import Robot from "@/assets/icons/robot.svg";
-import PieChart from "@/assets/icons/pie-chart.svg";
-import ComputerVision from "@/assets/icons/computer-vision.svg";
-import EdgeAI from "@/assets/icons/IoT.svg";
-import SecurityAI from "@/assets/icons/security.svg";
-import BusinessIntelligence from "@/assets/icons/revenue.svg";
+import Robot from "@/src/assets/icons/robot.svg";
+import PieChart from "@/src/assets/icons/pie-chart.svg";
+import ComputerVision from "@/src/assets/icons/computer-vision.svg";
+import EdgeAI from "@/src/assets/icons/IoT.svg";
+import SecurityAI from "@/src/assets/icons/security.svg";
+import BusinessIntelligence from "@/src/assets/icons/revenue.svg";
 
 export const AIMLIntegrationsData = {
   title: "AI/ML Integrations",

@@ -1,4 +1,4 @@
-import { ContactLinksData } from "@/data/contact-links.data";
+import { ContactLinksData } from "@/src/data/contact-links.data";
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 

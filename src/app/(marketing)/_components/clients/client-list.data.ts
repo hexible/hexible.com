@@ -1,12 +1,12 @@
-import Linkscout from "@/assets/brands/linkscout.svg";
-import Kundalini from "@/assets/brands/kundalini.svg";
-import Trutext from "@/assets/brands/trutext.svg";
-import SimpleTiger from "@/assets/brands/simpletiger.svg";
-import PocketInformant from "@/assets/brands/pocketinformant.svg";
-// import Mangalam from "@/assets/brands/mangalam.svg";
-import Ashadeep from "@/assets/brands/ashadeep.svg";
-import PlanPlusOnline from "@/assets/brands/planplusonline.svg";
-import Gretel from "@/assets/brands/gretel.svg";
+import Linkscout from "@/src/assets/brands/linkscout.svg";
+import Kundalini from "@/src/assets/brands/kundalini.svg";
+import Trutext from "@/src/assets/brands/trutext.svg";
+import SimpleTiger from "@/src/assets/brands/simpletiger.svg";
+import PocketInformant from "@/src/assets/brands/pocketinformant.svg";
+// import Mangalam from "@/src/assets/brands/mangalam.svg";
+import Ashadeep from "@/src/assets/brands/ashadeep.svg";
+import PlanPlusOnline from "@/src/assets/brands/planplusonline.svg";
+import Gretel from "@/src/assets/brands/gretel.svg";
 
 export const clientListData = [
   { name: "Linkscout", image: Linkscout },

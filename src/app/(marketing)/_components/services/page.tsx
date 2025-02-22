@@ -1,6 +1,6 @@
 import React from "react";
 
-import { SectionsHeader } from "@/components/common";
+import { SectionsHeader } from "@/src/components/common";
 import { ProposalBanner } from "./proposal-banner";
 import { ServiceCard } from "./service-card";
 import { ServicesData } from "./services.data";

@@ -1,5 +1,5 @@
-import { Button } from "@/components";
-import Tick from "@/assets/icons/tick.svg";
+import { Button } from "@/src/components";
+import Tick from "@/src/assets/icons/tick.svg";
 interface Props extends React.ComponentProps<"div"> {
   title: string;
   pricing: string;
@@ -19,7 +19,7 @@ export const PricingCard = ({
   return (
     <div
       {...props}
-      className="border-main-black/70 shadow-lg px-6 md:px-10 py-12 border border-b-4 border-b-main-black rounded-3xl"
+      className="shadow-lg px-6 md:px-10 py-12 border border-main-black/70 border-b-4 border-b-main-black rounded-3xl"
     >
       <div className="flex flex-col gap-4">
         <div className="flex flex-col justify-between space-y-5 w-full">

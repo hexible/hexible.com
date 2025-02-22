@@ -1,9 +1,9 @@
-import WhoAreWe from "@/assets/icons/team.svg";
-import OurWork from "@/assets/icons/avatar-working.svg";
-import OurValues from "@/assets/icons/handshake.svg";
-import OurAchievements from "@/assets/icons/team-award.svg";
-import OurVision from "@/assets/icons/target.svg";
-import OurApproach from "@/assets/icons/agile.svg";
+import WhoAreWe from "@/src/assets/icons/team.svg";
+import OurWork from "@/src/assets/icons/avatar-working.svg";
+import OurValues from "@/src/assets/icons/handshake.svg";
+import OurAchievements from "@/src/assets/icons/team-award.svg";
+import OurVision from "@/src/assets/icons/target.svg";
+import OurApproach from "@/src/assets/icons/agile.svg";
 
 export const AboutData = {
   title: "About Us",

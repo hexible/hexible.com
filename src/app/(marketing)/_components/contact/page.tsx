@@ -1,7 +1,7 @@
-import HalfRing from "@/assets/Illustration/half-zig-ring.svg";
-import { SectionsHeader } from "@/components/common";
-import { Label } from "@/components/ui/label";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import HalfRing from "@/src/assets/Illustration/half-zig-ring.svg";
+import { SectionsHeader } from "@/src/components/common";
+import { Label } from "@/src/components/ui/label";
+import { RadioGroup, RadioGroupItem } from "@/src/components/ui/radio-group";
 import { ContactForm } from "./contact-form";
 import { ContactData } from "./contact.data";
 

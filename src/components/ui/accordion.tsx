@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
-import Plus from "@/assets/icons/plus-bold.svg";
-import Minus from "@/assets/icons/minus-bold.svg";
+import Plus from "@/src/assets/icons/plus-bold.svg";
+import Minus from "@/src/assets/icons/minus-bold.svg";
 
-import { cn } from "@/utils";
+import { cn } from "@/src/utils";
 
 const Accordion = AccordionPrimitive.Root;
 

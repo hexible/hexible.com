@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 
-import { cn } from "@/utils";
+import { cn } from "@/src/utils";
 import { CaseStudyData } from "./case-study.data";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ export const CaseStudiesForLargeDevice = ({
 }: React.ComponentProps<"div">) => {
   return (
     <div
-      className="justify-center hidden md:grid grid-cols-1 md:grid-cols-3 bg-main-dark p-8 rounded-3xl text-main-gray"
+      className="hidden justify-center md:grid grid-cols-1 md:grid-cols-3 bg-main-dark p-8 rounded-3xl text-main-gray"
       {...props}
     >
       {CaseStudyData.items.map(({ label, url }, index) => {

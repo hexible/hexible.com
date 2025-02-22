@@ -1,6 +1,6 @@
 import React from "react";
 
-import { cn } from "@/utils";
+import { cn } from "@/src/utils";
 import { ServicesData } from "./services.data";
 import Link from "next/link";
 

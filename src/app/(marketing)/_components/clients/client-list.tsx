@@ -1,7 +1,7 @@
 import React from "react";
 
 import { clientListData } from "./client-list.data";
-import { Marquee } from "@/components/ui/custom/marquee";
+import { Marquee } from "@/src/components/ui/custom/marquee";
 import { ClientCard } from "./client-card";
 
 export const ClientList = ({ ...props }: React.ComponentProps<"div">) => {

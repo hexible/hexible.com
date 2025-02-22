@@ -1,5 +1,5 @@
-import { HeaderNavigationData, NavigationItem } from "@/data";
-import { AppData } from "@/data/app.data";
+import { HeaderNavigationData, NavigationItem } from "@/src/data";
+import { AppData } from "@/src/data/app.data";
 import type { MetadataRoute } from "next";
 
 // Normalize links: ensure they start with a slash and remove trailing slashes (except for the root).

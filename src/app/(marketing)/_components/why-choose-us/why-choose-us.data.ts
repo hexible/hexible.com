@@ -1,7 +1,7 @@
-import UnmatchedExpertiseIcon from "@/assets/why-choose-us/unmatched-expertise.svg";
-import UnbeatablePricingIcon from "@/assets/why-choose-us/unbeatable-pricing.svg";
-import CleanOptimizeCodeIcon from "@/assets/why-choose-us/clean-code.svg";
-import TechnicalSupportIcon from "@/assets/why-choose-us/technical-support.svg";
+import UnmatchedExpertiseIcon from "@/src/assets/why-choose-us/unmatched-expertise.svg";
+import UnbeatablePricingIcon from "@/src/assets/why-choose-us/unbeatable-pricing.svg";
+import CleanOptimizeCodeIcon from "@/src/assets/why-choose-us/clean-code.svg";
+import TechnicalSupportIcon from "@/src/assets/why-choose-us/technical-support.svg";
 
 export const WhyChooseUsData = {
   heading: "Why Choose Us",

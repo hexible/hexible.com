@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from "@/assets/common/logo.svg";
+import Logo from "@/src/assets/common/logo.svg";
 import { SocialIcons } from "../social-icons";
 
 export const FooterHeader = ({ ...props }: React.ComponentProps<"div">) => {

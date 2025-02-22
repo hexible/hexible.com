@@ -1,4 +1,4 @@
-import { SectionsHeader } from "@/components/common";
+import { SectionsHeader } from "@/src/components/common";
 import { OurValuesData } from "./our-values.data";
 import { OurValuesCard } from "./our-values-card";
 

@@ -1,4 +1,4 @@
-import { SectionsHeader } from "@/components/common";
+import { SectionsHeader } from "@/src/components/common";
 import { CaseStudiesForLargeDevice } from "./case-studies-for-large-device";
 import { CaseStudyForSmallDevice } from "./case-study-for-small-device";
 import { CaseStudyData } from "./case-study.data";

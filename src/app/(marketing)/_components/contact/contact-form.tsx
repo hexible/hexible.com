@@ -5,8 +5,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { contactFormSchema, ContactSchemaType } from "./contact-schema";
 
-import { Button, Input, Label, Textarea } from "@/components/ui";
-import { sendContactEmail } from "@/app/actions/contact";
+import { Button, Input, Label, Textarea } from "@/src/components/ui";
+import { sendContactEmail } from "@/src/app/actions/contact";
 
 export const ContactForm = ({ ...props }: React.ComponentProps<"form">) => {
   const { register, handleSubmit, reset } = useForm<ContactSchemaType>({

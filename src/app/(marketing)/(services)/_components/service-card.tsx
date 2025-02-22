@@ -1,5 +1,5 @@
 import { AIMLIntegrationsData } from "../ai-ml-integrations/ai-ml-integrations.data";
-import Tick from "@/assets/icons/tick.svg";
+import Tick from "@/src/assets/icons/tick.svg";
 
 interface Props extends React.ComponentProps<"div"> {
   data: (typeof AIMLIntegrationsData.sections)[number];

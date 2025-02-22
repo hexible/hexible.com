@@ -1,9 +1,9 @@
-import DashboardIcon from "@/assets/icons/dashboard.svg";
-import PieChart from "@/assets/icons/pie-chart.svg";
-import DataMining from "@/assets/icons/data-mining.svg";
-import RealtimeAnalytics from "@/assets/services/data-analytics.svg";
-import SecurityAnalytics from "@/assets/icons/security.svg";
-import DecisionSupport from "@/assets/icons/decision.svg";
+import DashboardIcon from "@/src/assets/icons/dashboard.svg";
+import PieChart from "@/src/assets/icons/pie-chart.svg";
+import DataMining from "@/src/assets/icons/data-mining.svg";
+import RealtimeAnalytics from "@/src/assets/services/data-analytics.svg";
+import SecurityAnalytics from "@/src/assets/icons/security.svg";
+import DecisionSupport from "@/src/assets/icons/decision.svg";
 
 export const BIDataAnalyticsData = {
   title: "BI & Data Analytics",

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import { AppData } from "@/data/app.data";
+import { AppData } from "@/src/data/app.data";
 
 const spaceGrotesk = Space_Grotesk({
   weight: ["300", "400", "500", "700"],

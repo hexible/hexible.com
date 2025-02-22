@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
 
-import { SectionsHeader } from "@/components/common";
+import { SectionsHeader } from "@/src/components/common";
 import { ReviewCards } from "./review-cards";
 import { TestimonialsData } from "./testimonials.data";
 

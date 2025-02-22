@@ -1,9 +1,9 @@
-import CloudMigration from "@/assets/icons/cloud-code.svg";
-import CloudSecurity from "@/assets/icons/cloud-security.svg";
-import CloudOptimization from "@/assets/icons/cloud-optimization.svg";
-import DevOps from "@/assets/icons/dev-ops.svg";
-import CloudInfrastructure from "@/assets/icons/cloud-network.svg";
-import HybridCloud from "@/assets/icons/multi-cloud.svg";
+import CloudMigration from "@/src/assets/icons/cloud-code.svg";
+import CloudSecurity from "@/src/assets/icons/cloud-security.svg";
+import CloudOptimization from "@/src/assets/icons/cloud-optimization.svg";
+import DevOps from "@/src/assets/icons/dev-ops.svg";
+import CloudInfrastructure from "@/src/assets/icons/cloud-network.svg";
+import HybridCloud from "@/src/assets/icons/multi-cloud.svg";
 
 export const CloudSolutionsData = {
   title: "Cloud Solutions",

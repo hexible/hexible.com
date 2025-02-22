@@ -1,9 +1,9 @@
-import UXResearch from "@/assets/icons/ux-research.svg";
-import UIDesign from "@/assets/services/UI.svg";
-import Prototyping from "@/assets/icons/wireframe.svg";
-import Accessibility from "@/assets/icons/color-palette.svg";
-import MotionDesign from "@/assets/icons/loading.svg";
-import UsabilityTesting from "@/assets/icons/ABTesting.svg";
+import UXResearch from "@/src/assets/icons/ux-research.svg";
+import UIDesign from "@/src/assets/services/UI.svg";
+import Prototyping from "@/src/assets/icons/wireframe.svg";
+import Accessibility from "@/src/assets/icons/color-palette.svg";
+import MotionDesign from "@/src/assets/icons/loading.svg";
+import UsabilityTesting from "@/src/assets/icons/ABTesting.svg";
 
 export const UIUXDesignData = {
   title: "UI & UX Design",

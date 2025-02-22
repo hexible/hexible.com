@@ -1,9 +1,9 @@
-import WebDevelopment from "@/assets/services/web-development.svg";
-import DataAnalytics from "@/assets/services/data-analytics.svg";
-import CloudSolutions from "@/assets/services/cloud-solutions.svg";
-import Maintenance from "@/assets/services/maintenance.svg";
-import UIUX from "@/assets/services/UI.svg";
-import AI from "@/assets/services/AI-ML.svg";
+import WebDevelopment from "@/src/assets/services/web-development.svg";
+import DataAnalytics from "@/src/assets/services/data-analytics.svg";
+import CloudSolutions from "@/src/assets/services/cloud-solutions.svg";
+import Maintenance from "@/src/assets/services/maintenance.svg";
+import UIUX from "@/src/assets/services/UI.svg";
+import AI from "@/src/assets/services/AI-ML.svg";
 
 type ServiceType = {
   heading1: string;

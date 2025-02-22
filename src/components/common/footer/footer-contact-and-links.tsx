@@ -1,4 +1,7 @@
-import { CompanyFooterNavigationData, LegalFooterNavigationData } from "@/data";
+import {
+  CompanyFooterNavigationData,
+  LegalFooterNavigationData,
+} from "@/src/data";
 import Link from "next/link";
 
 export const FooterContactAndLinks = ({
@@ -11,11 +14,11 @@ export const FooterContactAndLinks = ({
         <p>Email: contact@hexible.com</p>
         <p>Phone: +91 8800100101, +91 9992244008</p>
         <p>
-          Address: D160, Siddharth Nagar, <br className="md:block hidden" />
+          Address: D160, Siddharth Nagar, <br className="hidden md:block" />
           Jaipur City, Rajasthan, India 302017
         </p>
       </div>
-      <div className="md:block space-y-3 hidden my-4 text-center md:text-start">
+      <div className="hidden md:block space-y-3 my-4 text-center md:text-start">
         <h6 className="font-bold text-xl">Company</h6>
         <div className="flex flex-col my-1">
           {CompanyFooterNavigationData.map((item) => (
