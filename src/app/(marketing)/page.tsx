@@ -1,4 +1,4 @@
-import { ClientList } from "./_components/clients/client-list";
+// import { ClientList } from "./_components/clients/client-list";
 import { Contact } from "./_components/contact/page";
 import { Hero } from "./_components/hero/hero";
 import { Service } from "./_components/services/page";
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="space-y-16 *:container">
       <Hero />
-      <ClientList />
+      {/* <ClientList /> */}
       <Service />
       <WhyChooseUs />
       <TechnicalExpertise />
