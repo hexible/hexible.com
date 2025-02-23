@@ -51,3 +51,5 @@ export const AppData = {
     link: "/contact",
   },
 };
+
+export const url = (path: string) => `${process.env.SITE_URL}${path}`;

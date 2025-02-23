@@ -43,10 +43,10 @@ export const HeaderNavigationData: NavigationItem[] = [
     label: "Pricing",
     link: "/pricing",
   },
-  // {
-  //   label: "Blogs",
-  //   link: "/blogs",
-  // },
+  {
+    label: "Blogs",
+    link: "/blogs",
+  },
   {
     label: "About",
     link: "/about",
