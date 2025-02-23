@@ -18,6 +18,13 @@ const nextConfig = {
     });
     return config;
   },
+  images: {
+    remotePatterns: [
+      {
+        hostname: "images.pexels.com"
+      }
+    ],
+  },
 };
 
 export default withMDX(nextConfig);
