@@ -15,27 +15,27 @@ export const HeaderNavigationData: NavigationItem[] = [
     children: [
       {
         label: "Software Development",
-        link: "/software-development",
+        link: "/services/software-development",
       },
       {
         label: "UI/UX Design",
-        link: "/ui-ux-design",
+        link: "/services/ui-ux-design",
       },
       {
         label: "AI/ML Integrations",
-        link: "/ai-ml-integrations",
+        link: "/services/ai-ml-integrations",
       },
       {
         label: "Cloud Solutions",
-        link: "/cloud-solutions",
+        link: "/services/cloud-solutions",
       },
       {
         label: "BI & Data Analytics",
-        link: "/bi-data-analytics",
+        link: "/services/bi-data-analytics",
       },
       {
         label: "Software Maintenance",
-        link: "/software-maintenance",
+        link: "/services/software-maintenance",
       },
     ],
   },
