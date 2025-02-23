@@ -1,7 +1,7 @@
 import { remarkGfm } from "fumadocs-core/mdx-plugins";
 import { defineCollections, defineConfig } from "fumadocs-mdx/config";
 import rehypeExternalLinks from "rehype-external-links";
-import { zBlog } from "./src/app/(marketing)/blogs/blog.schema";
+import { zBlog } from "./app/(marketing)/blogs/blog.schema";
 
 export const blogCollection = defineCollections({
   type: "doc",
