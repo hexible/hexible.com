@@ -4,8 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Script from "next/script";
-import { Toc } from "../_components/toc";
-import { url } from "@/src/data/app.data";
+import defaultMdxComponents from "fumadocs-ui/mdx";
+import { AppData, url } from "@/src/data/app.data";
+import { InlineTOC } from "fumadocs-ui/components/inline-toc";
 import { getAuthor } from "../blogs.data";
 import Logo from "@/src/assets/common/logo.svg";
 import { ProposalBanner } from "../../_components/services/proposal-banner";
@@ -27,6 +28,7 @@ export async function generateMetadata({
   }
 
   return {
+    metadataBase: new URL(AppData.publicUrl),
     title: blog.data.title,
     description: blog.data.description,
     authors: [{ name: author.name }],
@@ -58,11 +60,11 @@ export default async function Page({
 }) {
   const { slug } = await params;
   const blog = await blogSource.getPage([slug]);
-  const Body = blog?.data.body;
+  const MDX = blog?.data.body;
   const author = getAuthor(blog?.data.team);
   const goBackUrl = "/blogs";
 
-  if (!Body) {
+  if (!MDX) {
     return notFound();
   }
 
@@ -154,20 +156,9 @@ export default async function Page({
             </div>
           </div>
         </div>
-        <div className="relative">
-          <div className="bg-gradient-to-b from-background to-transparent">
-            <div className="hidden article:hidden md:block float-right pb-12 pl-12">
-              <Toc toc={blog?.data.toc} />
-            </div>
-            <div className="prose">
-              <Body />
-            </div>
-          </div>
-          <div className="hidden article:block top-0 -right-[300px] absolute pl-12 w-[300px] h-full">
-            <div className="top-32 sticky flex flex-col gap-8">
-              <Toc toc={blog?.data.toc} />
-            </div>
-          </div>
+        <div className="prose">
+          <InlineTOC defaultOpen items={blog?.data.toc} />
+          <MDX components={{ ...defaultMdxComponents }} />
         </div>
         <div>
           <ProposalBanner />
