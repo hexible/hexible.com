@@ -3,7 +3,6 @@ import { createMDX } from 'fumadocs-mdx/next';
 const withMDX = createMDX();
 
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
   webpack(config) {
     config.module.rules.push({
