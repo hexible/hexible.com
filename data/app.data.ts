@@ -35,6 +35,8 @@ export const AppData = {
     "IT Consulting",
     "Technology Consulting",
   ],
+  shortDescription:
+    "Scale your business with cutting-edge software solutions and expert technology consulting from Hexible, where your vision becomes perfectly engineered reality.",
   longDescription:
     "Scale your business 10x with cutting-edge software solutions. Our expertise in custom web applications, scalable cloud platforms, and high-performance app development ensures seamless user engagement and business growth. Book a free consultancy call to discover how we’ve helped companies like yours scale from startups to industry leaders with powerful software solutions.",
   contactEmail: "contact@hexible.com",
