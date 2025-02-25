@@ -22,7 +22,7 @@ export const AboutData = {
       heading: "Who We Are",
       icon: WhoAreWe,
       description:
-        "At Hexible, we specialize in delivering cutting-edge technology solutions that drive business growth and operational efficiency. Our offerings span software development, cloud computing, and IT consulting, all designed to meet the unique needs of each client. With a strong commitment to quality, reliability, and customer satisfaction, we deliver tailored solutions to help businesses thrive in an ever-evolving digital landscape.",
+        "At Hexible, we are collaborators and visionaries, driven to tackle the challenges of tomorrow with bold thinking and innovation. As a dynamic startup, we turn obstacles into opportunities, creating solutions that spark a ripple effect, impacting industries, communities, and billions of lives. With agility, creativity, and a problem-solving mindset, we strive to drive lasting change through cutting-edge technology and disruptive ideas. By working with us, you’re not just joining a project—you’re becoming part of a movement shaping the future.",
     },
     {
       heading: "Our Work",
@@ -34,7 +34,7 @@ export const AboutData = {
       heading: "Our Values",
       icon: OurValues,
       description:
-        "At Hexible, we uphold a strong set of values that guide everything we do. We are deeply committed to creating an inclusive, respectful environment for all individuals, regardless of their race, gender, or nationality. By offering equal opportunities for growth and advancement, we promote a culture of mutual respect and collaboration.",
+        "At Hexible, openness and transparency are at our core—information is shared by default, and speaking up with intelligence, thoughtfulness, and care is encouraged. We live by “measure twice, cut once,” balancing urgency with thoughtful decision-making to drive impactful action. Our customers are our lifeblood, and we prioritize their collective needs to ensure lasting success. Above all, we believe work should be both fulfilling and fun; while we take our mission seriously, we never take ourselves too seriously, always putting the team first—whether in the office or on the field.",
     },
     {
       heading: "Our Achievements",
